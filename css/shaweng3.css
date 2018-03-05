@@ -2025,13 +2025,21 @@
     background-color: #fff
 }
 
-subpage-part-container {
+.subpage-part-container {
     border: 1px solid #e10000;
     min-width: 1024px;
     width: 100%;
     padding: 0 40px 0 180px;
     font-size: 20px;
     position: relative
+}
+
+
+.subpage-part-container .title{
+    position: absolute;
+    top: 30px;
+    color:#ff9600;
+    font-size: 6rem;
 }
 
 .subpage-part-container.abus {
