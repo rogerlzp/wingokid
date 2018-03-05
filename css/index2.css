@@ -1,0 +1,937 @@
+a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline
+}
+
+body {
+    line-height: 1;
+    color: #000;
+    background: #fff
+}
+
+ol, ul {
+    list-style: none
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0
+}
+
+caption, table, td, th {
+    vertical-align: middle
+}
+
+caption, td, th {
+    text-align: left;
+    font-weight: 400
+}
+
+a img {
+    border: none
+}
+
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    display: block
+}
+
+audio, canvas, video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+[hidden], audio:not([controls]) {
+    display: none
+}
+
+body, html {
+    font-family: Helvetica, Tahoma, Arial, Hiragino Sans GB, \\51AC\9752\9ED1\4F53, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, STXihei, \\534E\6587\7EC6\9ED1, SimSun, \\5B8B\4F53, Heiti, \\9ED1\4F53, sans-serif
+}
+
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+.hide {
+    display: none
+}
+
+.clearfix:after, .clearfix:before {
+    display: table;
+    content: ""
+}
+
+.clearfix:after {
+    clear: both
+}
+
+@font-face {
+    font-family: iconfont;
+    src: url(//fe-static.vipkid.com.cn/img/font/iconfont-819a5f5136.eot);
+    src: url(//fe-static.vipkid.com.cn/nomatch) format("embedded-opentype"), url(//fe-static.vipkid.com.cn/img/font/iconfont-a5e39c13b1.woff) format("woff"), url(//fe-static.vipkid.com.cn/img/font/iconfont-d377b0d3e9.ttf) format("truetype"), url(//fe-static.vipkid.com.cn/nomatch) format("svg")
+}
+
+.iconfont {
+    font-family: iconfont !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: .2px;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.input {
+    height: 44px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0 10px;
+    border: 1px solid #d8d8d8;
+    outline: none
+}
+
+.input:focus {
+    border-color: #46a3fb;
+    -webkit-box-shadow: 0 0 3px #46a3fb;
+    box-shadow: 0 0 3px #46a3fb
+}
+
+.input-error {
+    border-color: red
+}
+
+.input-block {
+    width: 100%
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: #f60;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    height: 44px;
+    line-height: 44px
+}
+
+.btn:hover {
+    color: #fff;
+    cursor: pointer;
+    opacity: .9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90)
+}
+
+.btn-secondary {
+    background-color: #fff;
+    border: 1px solid #d8d8d8;
+    color: #333
+}
+
+.btn-secondary:hover {
+    color: #333
+}
+
+.btn-disabled {
+    background-color: #d8d8d8
+}
+
+.btn-samll {
+    height: 28px;
+    line-height: 28px
+}
+
+.btn-block {
+    text-align: center;
+    width: 100%
+}
+
+.onemodal-bounceIn {
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: onemodalBounceIn;
+    -moz-animation-name: onemodalBounceIn;
+    -o-animation-name: onemodalBounceIn;
+    -ms-animation-name: onemodalBounceIn;
+    animation-name: onemodalBounceIn;
+    -webkit-animation-duration: .2s;
+    -moz-animation-duration: .2s;
+    -o-animation-duration: .2s;
+    -ms-animation-duration: .2s;
+    animation-duration: .2s
+}
+
+.onemodal-bounceOut {
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: onemodalBounceOut;
+    -moz-animation-name: onemodalBounceOut;
+    -o-animation-name: onemodalBounceOut;
+    -ms-animation-name: onemodalBounceOut;
+    animation-name: onemodalBounceOut;
+    -webkit-animation-duration: .2s;
+    -moz-animation-duration: .2s;
+    -o-animation-duration: .2s;
+    -ms-animation-duration: .2s;
+    animation-duration: .2s
+}
+
+.modal, .onemodal {
+    display: none;
+    width: 500px;
+    background: #fff;
+    padding: 35px 40px 25px;
+    -webkit-box-shadow: 0 0 3px #555;
+    box-shadow: 0 0 3px #555
+}
+
+@media screen and (max-width: 479px) {
+    .modal, .onemodal {
+        width: 90%;
+        padding: 25px 15px
+    }
+}
+
+.modal-dialog {
+    display: none;
+    background: #fff
+}
+
+.modal-dialog-hd {
+    font-size: 18px;
+    color: $ gray_dark;
+    margin-bottom: 18px
+}
+
+.modal-dialog-bd {
+    margin-bottom: 28px;
+    line-height: 26px
+}
+
+.modal-dialog-ft {
+    text-align: right
+}
+
+.onemodal-black {
+    text-align: center;
+    background: rgba(0, 0, 0, .6);
+    width: 200px
+}
+
+@media $desktop {
+
+    .onemodal-black {
+        width: 300px
+    }
+}
+
+.onemodal-black img {
+    display: block;
+    width: 40px;
+    margin: 0 auto 20px
+}
+
+.onemodal-black .modal-dialog-hd {
+    color: #fff
+}
+
+.modals-group {
+    width: 580px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 0 10px hsla(0, 0%, 100%, .5);
+    box-shadow: 0 0 0 10px hsla(0, 0%, 100%, .5);
+    display: none
+}
+
+@media screen and (max-width: 479px) {
+    .modals-group {
+        width: 90%;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -webkit-border-radius: 5px;
+        border-radius: 5px
+    }
+}
+
+.modals-group .btn {
+    min-width: 60px
+}
+
+.modals-group .onemodal-hd {
+    border-bottom: 1px solid #f3f3f3;
+    padding: 20px
+}
+
+.modals-group .onemodal-hd .icon-close {
+    float: right;
+    cursor: pointer;
+    color: $ fancy_gray_30
+}
+
+.modals-group .onemodal-hd h4 {
+    font-size: 16px
+}
+
+.modals-group .onemodal-hd h4.text-success {
+    color: $ deep_green_50
+}
+
+.modals-group .onemodal-hd h4.text-error {
+    color: $ red_50
+}
+
+.modals-group .onemodal-bd {
+    padding: 30px;
+    line-height: 1.6
+}
+
+@media screen and (max-width: 479px) {
+    .modals-group .onemodal-bd {
+        padding: 20px
+    }
+}
+
+.modals-group .onemodal-bd .bd-icon {
+    margin-right: 8px;
+    font-size: 44px;
+    line-height: 1
+}
+
+.modals-group .onemodal-bd .icon-wrong {
+    color: $ red_50
+}
+
+.modals-group .onemodal-bd .icon-ghicon {
+    color: $ deep_green_50
+}
+
+.modals-group .onemodal-loading {
+    padding: 50px 30px
+}
+
+.modals-group .onemodal-loading img.loading {
+    width: 40px;
+    float: left;
+    margin-top: -13px;
+    margin-right: 40px
+}
+
+.modals-group .onemodal-ft {
+    border-top: 1px solid #f3f3f3;
+    padding: 20px;
+    zoom: 1
+}
+
+.modals-group .onemodal-ft:after, .modals-group .onemodal-ft:before {
+    content: "";
+    display: table
+}
+
+.modals-group .onemodal-ft:after {
+    clear: both
+}
+
+.modals-group .onemodal-ft .btn {
+    float: right
+}
+
+.modals-group .onemodal-ft .btn:last-child {
+    margin-right: 20px
+}
+
+.onemodal-wechat {
+    position: relative
+}
+
+.onemodal-wechat p {
+    margin-top: 10px;
+    line-height: 1.6;
+    font-size: 13px
+}
+
+.onemodal-wechat img {
+    position: absolute;
+    top: 20px;
+    right: 20px
+}
+
+.vipkid-modal {
+    border: 5px solid rgba(0, 0, 0, .5);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    position: relative;
+    width: 500px;
+    margin: 0 auto
+}
+
+.vipkid-modal .modal-dinosaur {
+    top: -80px;
+    left: 50%;
+    margin-left: -70px;
+    width: 140px;
+    height: 91px
+}
+
+.vipkid-modal .modal-dinosaur img {
+    width: 100%
+}
+
+.vipkid-modal .modal-body {
+    padding: 50px 40px 0;
+    background-color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    zoom: 1
+}
+
+.vipkid-modal .modal-body:after, .vipkid-modal .modal-body:before {
+    content: "";
+    display: table
+}
+
+.vipkid-modal .modal-body:after {
+    clear: both
+}
+
+.vipkid-modal .modal-body .message {
+    left: 100px
+}
+
+.vipkid-modal .modal-body label {
+    width: 90px
+}
+
+.vipkid-modal .modal-close {
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer
+}
+
+.vipkid-modal .modal-foot {
+    background-color: #fff;
+    padding: 30px 0;
+    text-align: center
+}
+
+.vipkid-modal .modal-foot .cancel-btn, .vipkid-modal .modal-foot .confirm-btn {
+    font-size: 16px;
+    width: 120px;
+    padding: 0;
+    background-color: #ddd;
+    color: #fff;
+    height: 32px;
+    border: none;
+    -webkit-border-radius: 16px;
+    border-radius: 16px;
+    outline: none;
+    margin: 0 20px;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    -ms-transition: all .2s;
+    transition: all .2s;
+    cursor: pointer
+}
+
+.vipkid-modal .modal-foot .cancel-btn:hover, .vipkid-modal .modal-foot .confirm-btn:hover {
+    background-color: #f60;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    -ms-transition: all .2s;
+    transition: all .2s
+}
+
+.vipkid-modal.with-header .modal-body {
+    padding: 30px 48px 0
+}
+
+.vipkid-modal.with-header .modal-foot {
+    padding: 30px 0
+}
+
+.vipkid-modal.with-header .modal-title {
+    font-size: 20px;
+    line-height: 20px
+}
+
+.vipkid-modal.with-header .modal-close {
+    line-height: 40px;
+    right: 20px
+}
+
+.vipkid-modal > .modal-header {
+    background-color: #f60;
+    height: 60px;
+    color: #fff;
+    padding: 20px
+}
+
+.vipkid-modal .modal-close {
+    position: absolute;
+    right: 10px;
+    top: 10px
+}
+
+.vipkid-modal .modal-close:before {
+    content: "脳";
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 100
+}
+
+@-moz-keyframes onemodalBounceIn {
+    0% {
+        -webkit-transform: scale(.5);
+        -moz-transform: scale(.5);
+        -o-transform: scale(.5);
+        -ms-transform: scale(.5);
+        transform: scale(.5);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0)
+    }
+    70% {
+        -webkit-transform: scale(1.03);
+        -moz-transform: scale(1.03);
+        -o-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        transform: scale(1.03)
+    }
+    to {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@-webkit-keyframes onemodalBounceIn {
+    0% {
+        -webkit-transform: scale(.5);
+        -moz-transform: scale(.5);
+        -o-transform: scale(.5);
+        -ms-transform: scale(.5);
+        transform: scale(.5);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0)
+    }
+    70% {
+        -webkit-transform: scale(1.03);
+        -moz-transform: scale(1.03);
+        -o-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        transform: scale(1.03)
+    }
+    to {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@-o-keyframes onemodalBounceIn {
+    0% {
+        -webkit-transform: scale(.5);
+        -moz-transform: scale(.5);
+        -o-transform: scale(.5);
+        -ms-transform: scale(.5);
+        transform: scale(.5);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0)
+    }
+    70% {
+        -webkit-transform: scale(1.03);
+        -moz-transform: scale(1.03);
+        -o-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        transform: scale(1.03)
+    }
+    to {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@keyframes onemodalBounceIn {
+    0% {
+        -webkit-transform: scale(.5);
+        -moz-transform: scale(.5);
+        -o-transform: scale(.5);
+        -ms-transform: scale(.5);
+        transform: scale(.5);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0)
+    }
+    70% {
+        -webkit-transform: scale(1.03);
+        -moz-transform: scale(1.03);
+        -o-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        transform: scale(1.03)
+    }
+    to {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@-moz-keyframes onemodalBounceOut {
+    0% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1)
+    }
+    30% {
+        -webkit-transform: scale(1.03);
+        -moz-transform: scale(1.03);
+        -o-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        transform: scale(1.03)
+    }
+    to {
+        -webkit-transform: scale(.7);
+        -moz-transform: scale(.7);
+        -o-transform: scale(.7);
+        -ms-transform: scale(.7);
+        transform: scale(.7);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0)
+    }
+}
+
+@-webkit-keyframes onemodalBounceOut {
+    0% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1)
+    }
+    30% {
+        -webkit-transform: scale(1.03);
+        -moz-transform: scale(1.03);
+        -o-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        transform: scale(1.03)
+    }
+    to {
+        -webkit-transform: scale(.7);
+        -moz-transform: scale(.7);
+        -o-transform: scale(.7);
+        -ms-transform: scale(.7);
+        transform: scale(.7);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0)
+    }
+}
+
+@-o-keyframes onemodalBounceOut {
+    0% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1)
+    }
+    30% {
+        -webkit-transform: scale(1.03);
+        -moz-transform: scale(1.03);
+        -o-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        transform: scale(1.03)
+    }
+    to {
+        -webkit-transform: scale(.7);
+        -moz-transform: scale(.7);
+        -o-transform: scale(.7);
+        -ms-transform: scale(.7);
+        transform: scale(.7);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0)
+    }
+}
+
+@keyframes onemodalBounceOut {
+    0% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1)
+    }
+    30% {
+        -webkit-transform: scale(1.03);
+        -moz-transform: scale(1.03);
+        -o-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        transform: scale(1.03)
+    }
+    to {
+        -webkit-transform: scale(.7);
+        -moz-transform: scale(.7);
+        -o-transform: scale(.7);
+        -ms-transform: scale(.7);
+        transform: scale(.7);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0)
+    }
+}
+
+.new-vipkid-modal {
+    border: 5px solid rgba(0, 0, 0, .5);
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    width: 400px;
+    margin: 0 auto
+}
+
+.new-vipkid-modal .modal-dinosaur {
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    margin-left: -70px;
+    width: 140px;
+    height: 91px
+}
+
+.new-vipkid-modal .modal-dinosaur img {
+    width: 100%
+}
+
+.new-vipkid-modal .modal-body {
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    margin-bottom: -1px;
+    padding: 0 40px;
+    zoom: 1
+}
+
+.new-vipkid-modal .modal-body:after, .new-vipkid-modal .modal-body:before {
+    content: "";
+    display: table
+}
+
+.new-vipkid-modal .modal-body:after {
+    clear: both
+}
+
+.new-vipkid-modal .modal-body .message {
+    left: 100px
+}
+
+.new-vipkid-modal .modal-body label {
+    width: 90px
+}
+
+.new-vipkid-modal .modal-body .imagecode-wrapper {
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+    position: relative;
+    height: 42px
+}
+
+.new-vipkid-modal .modal-body .imagecode-wrapper .imagecode-input {
+    border: none;
+    height: 40px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    padding-left: 18px;
+    font-size: 16px
+}
+
+.new-vipkid-modal .modal-body .imagecode-wrapper .error-message {
+    margin: 5px 0;
+    color: #f60;
+    font-size: 14px
+}
+
+.new-vipkid-modal .modal-body .imagecode-wrapper .imagecode-img {
+    position: absolute;
+    right: 0;
+    background: none;
+    width: 102px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none
+}
+
+.new-vipkid-modal .modal-body .imagecode-wrapper .imagecode-img img {
+    width: 102px;
+    height: 40px
+}
+
+.new-vipkid-modal .modal-close {
+    border: none;
+    outline: none;
+    color: #fff;
+    right: 15px;
+    color: #000;
+    top: 15px;
+    padding: 0;
+    line-height: 0;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute
+}
+
+.new-vipkid-modal .modal-close img {
+    width: 13px;
+    height: 13px
+}
+
+.new-vipkid-modal .modal-foot {
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+    padding: 30px 0 30px 40px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px
+}
+
+.new-vipkid-modal .modal-foot .confirm-btn {
+    min-width: 100px;
+    font-size: 16px;
+    height: 40px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff;
+    background: #f60;
+    border: 1px solid #f60;
+    float: left;
+    display: inline-block;
+    margin: 0;
+    margin-right: 10px;
+    outline: none;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    -ms-transition: all .2s;
+    transition: all .2s;
+    cursor: pointer;
+    padding: 0 14px
+}
+
+.new-vipkid-modal .modal-foot .confirm-btn:hover {
+    opacity: .82;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=82)";
+    filter: alpha(opacity=82)
+}
+
+.new-vipkid-modal .modal-foot .cancel-btn {
+    min-width: 100px;
+    font-size: 16px;
+    height: 40px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #333;
+    background: #fff;
+    border: 1px solid #b9b9b9;
+    float: left;
+    display: inline-block;
+    margin: 0;
+    margin-right: 10px;
+    outline: none;
+    cursor: pointer;
+    padding: 0 14px
+}
+
+.new-vipkid-modal .modal-foot .cancel-btn, .new-vipkid-modal .modal-foot .cancel-btn:hover {
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    -ms-transition: all .2s;
+    transition: all .2s
+}
+
+.new-vipkid-modal .modal-foot .cancel-btn:hover {
+    color: #f60;
+    border: 1px solid #f60;
+    opacity: .82;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=82)";
+    filter: alpha(opacity=82)
+}
+
+.new-vipkid-modal .modal-foot .cancel-btn {
+    min-width: 84px
+}
+
+.new-vipkid-modal > .modal-header {
+    background: #fff;
+    color: #000;
+    height: 51px;
+    padding: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-bottom: -1px
+}
+
+/**/
