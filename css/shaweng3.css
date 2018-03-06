@@ -2035,11 +2035,14 @@
 }
 
 
-.subpage-part-container .title{
+.banner-wrapper .teacher{
     position: absolute;
-    top: 30px;
-    color:#ff9600;
-    font-size: 6rem;
+    left: 210px;
+    right: 0;
+    font-size: 5rem;
+    z-index: 21;
+    color: #ff9600;
+    font-size: 5rem;
 }
 
 .subpage-part-container.abus {
