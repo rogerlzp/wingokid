@@ -2023,7 +2023,7 @@
 .subpage-part-container {
     /*border: 5px solid #e10000;*/
     min-width: 1024px;
-    margin-top: 40px;
+    margin-top: 60px;
     width: 100%;
     padding: 0 40px 0 180px;
     font-size: 20px;
@@ -2386,10 +2386,6 @@ p.black2 {
     left: 0
 }
 
-.sub-footprint {
-    float: left;
-    position: relative;
-}
 
 .footprint .text {
     position: absolute;
@@ -2425,3 +2421,28 @@ p.black2 {
 
     /*z-index: 100;*/
 }
+
+.sub-footprint {
+    float: left;
+    position: relative;
+    background: url("img/footprint1.png") no-repeat;
+}
+
+.sub-footprint .content {
+    width:300px;
+    height:200px;
+    ba
+    border-radius:10px
+
+}
+
+EF8A2F
+
+#hover1 {
+    background-image: url("img/footprint1.png");
+}
+
+#hover1:hover {
+    background-image: url("img/footprint_hover.png");
+}
+

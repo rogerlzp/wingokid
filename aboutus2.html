@@ -71,13 +71,82 @@
         </div>
         <div class="content-container">
             <div class="banner-text-holder">
-              <p class="title">Teachers</p>
-              <p class="content">外教上门，营造全英语环境</p>
+                <p class="title">TEACHERS</p>
+                <p class="content">外教上门，营造全英语环境</p>
             </div>
         </div>
     </div>
 </div>
 
+<div class="subpage-main-wrapper">
+    <div class="about-main-wrapper">
+        <div class="yellow_title10">
+            <div class="subpage-part-container">
+                <div class="right-strip"></div>
+                <div class="content-container clearfix">
+                    <div class="right-strip-title-holder strip">
+                        <div class="black"><p class="black1">品牌与创始人</p>
+                            <p class="black2">Brand and founder</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dialmod1">
+            <!--<div class="dialmod2">-->
+            <div class="text"><p>2012年，莎翁少儿家庭英语由复旦两位博士——史元明和付菁华联合创立。</p></div>
+            <div class="img_ping"><img src="img/about_ping.png"></div>
+            <!--</div>-->
+        </div>
+
+        <div class="player">
+            <img src="img/player.png">
+        </div>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="subpage-part-container">
+            <div class="right-strip2"></div>
+            <div class="content-container clearfix">
+                <div class="right-strip-title-holder strip">
+                    <div class="black"><p class="black1">莎翁足迹</p>
+                        <p class="black2">footprint</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footprint">
+            <div class="right-strip2"></div>
+            <div class="sub-footprint">
+                <img id="hover1" src="img/footprint1.png">
+                <span class="text">2012</span>
+                <div class="content">
+                    <div class="content1">
+
+                    </div>
+
+
+                </div>
+            </div>
+            <!--<div class="sub-footprint"><img src="img/footprint1.png">-->
+            <!--<span class="text">2013</span>-->
+            <!--</div>-->
+            <!--<div class="sub-footprint"><img src="img/footprint1.png">-->
+            <!--<span class="text">2014</span>-->
+            <!--</div>-->
+            <!--<div class="sub-footprint"><img src="img/footprint1.png">-->
+            <!--<span class="text">2015</span>-->
+            <!--</div>-->
+            <!--<div class="more">-->
+            <!--<span class="text">More</span>-->
+            <!--</div>-->
+            <!--<div class="sub-footprint"><p>2012</p></div>-->
+        </div>
+        <!--<div class="sub-footprint"><img src="img/footprint1.png">-->
+        <!--<p>2013</p>-->
+        <!--</div>-->
+
+    </div>
+</div>
 <div class="subpage-main-wrapper">
     <div class="yellow_title">
         <div class="subpage-part-container">
@@ -290,5 +359,15 @@
 <!--var s = document.getElementsByTagName("script")[0];-->
 <!--s.parentNode.insertBefore(hm, s);-->
 <!--})();</script>-->
+<script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+<script>
+    $(function () {
+        $("#hover1").hover(function () {
+            $("#hover1").attr('src', 'img/footprint_hover.png');
+        }, function () {
+            $("#hover1").attr('src', 'img/footprint1.png');
+        });
+    });
+</script>
 </body>
 </html>
