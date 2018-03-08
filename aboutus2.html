@@ -19,7 +19,7 @@
 
 <div class="home-left-nav-wrapper">
     <div data-scroll="scrollup" class="home-left-nav-bar font-color-orange">
-        <a href="/home" class="active">莎翁首页</a>
+        <a href="/home">莎翁首页</a>
         <a href="/jiaoxuelinian">教学模式</a>
         <a href="/beimeishizi">课程体系</a>
         <a href="/kechengtixi" class="active">关于莎翁</a>
@@ -117,29 +117,58 @@
         <div class="footprint">
             <div class="right-strip2"></div>
             <div class="sub-footprint">
-                <img id="hover1" src="img/footprint1.png">
-                <span class="text">2012</span>
+                <img src="img/footprint1.png">
+                <span class="year">2012</span>
                 <div class="content">
-                    <div class="content1">
-
+                    <div class="content_head">
+                        <span>选中之后样式</span>
                     </div>
-
-
+                    <div class="content_foot">
+                        <span>关于莎翁的介绍</span>
+                    </div>
                 </div>
             </div>
-            <!--<div class="sub-footprint"><img src="img/footprint1.png">-->
-            <!--<span class="text">2013</span>-->
-            <!--</div>-->
-            <!--<div class="sub-footprint"><img src="img/footprint1.png">-->
-            <!--<span class="text">2014</span>-->
-            <!--</div>-->
-            <!--<div class="sub-footprint"><img src="img/footprint1.png">-->
-            <!--<span class="text">2015</span>-->
-            <!--</div>-->
-            <!--<div class="more">-->
-            <!--<span class="text">More</span>-->
-            <!--</div>-->
-            <!--<div class="sub-footprint"><p>2012</p></div>-->
+            <div class="sub-footprint">
+                <img src="img/footprint1.png">
+                <span class="year">2013</span>
+                <div class="content">
+                    <div class="content_head">
+                        <span>选中之后样式</span>
+                    </div>
+                    <div class="content_foot">
+                        <span>关于莎翁的介绍</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-footprint">
+                <img src="img/footprint1.png">
+                <span class="year">2014</span>
+                <div class="content">
+                    <div class="content_head">
+                        <span>选中之后样式</span>
+                    </div>
+                    <div class="content_foot">
+                        <span>关于莎翁的介绍</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-footprint">
+                <img src="img/footprint1.png">
+                <span class="year">2015</span>
+                <div class="content">
+                    <div class="content_head">
+                        <span>选中之后样式</span>
+                    </div>
+                    <div class="content_foot">
+                        <span>关于莎翁的介绍</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="more">
+            <span class="text">More</span>
+            </div>
         </div>
         <!--<div class="sub-footprint"><img src="img/footprint1.png">-->
         <!--<p>2013</p>-->
@@ -362,10 +391,13 @@
 <script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
 <script>
     $(function () {
-        $("#hover1").hover(function () {
-            $("#hover1").attr('src', 'img/footprint_hover.png');
+        $(".sub-footprint").hover(function () {
+            $(this).children('img:first-child').attr('src', 'img/footprint_hover.png');
+            // $("#hover1").attr('src', 'img/footprint_hover.png');
         }, function () {
-            $("#hover1").attr('src', 'img/footprint1.png');
+            $(this).children('img:first-child').attr('src', 'img/footprint1.png');
+
+            // $("#hover1").attr('src', 'img/footprint1.png');
         });
     });
 </script>
