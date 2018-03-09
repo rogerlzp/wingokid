@@ -2467,6 +2467,42 @@ p.black2 {
     height: 968px;
     background-color: #FFFFFF
 }
+
+.kechengtixi-main-wrapper {
+    z-index: 1;
+    height: 1323px;
+    background-color: #F3F3F3
+}
+
+.zhuxiu-main-wrapper {
+    z-index: 1;
+    height: 1232px;
+    background-color: #FFFFFF;
+}
+
+.zhuxiu-main-wrapper .subpage-part-container {
+    min-width: 1024px;
+    width: 100%;
+    padding: 0 40px 0 180px;
+    font-size: 20px;
+    position: relative
+}
+
+.vip-main-wrapper {
+    z-index: 1;
+    height: 1232px;
+    background-color: #F3F3F3;
+    border: 1px solid #ff5a0b;
+}
+
+.vip-main-wrapper .subpage-part-container {
+    min-width: 1024px;
+    width: 100%;
+    padding: 0 40px 0 180px;
+    font-size: 20px;
+    position: relative
+}
+
 .teach-target-wrapper {
     z-index: 1;
     /*padding-top: 100px;*/
@@ -2942,7 +2978,6 @@ p.black2 {
     position: absolute;
     bottom: 20px;
     right: 10px;
-
 }
 
 .mode-item2 {
@@ -3015,4 +3050,64 @@ p.black2 {
     text-align: center;
     line-height: 130px;
 
+}
+
+.kechengtixi-main-wrapper .kecheng-container {
+    width: 100%;
+    border: 1px solid #46a3fb;
+}
+
+.kechengtixi-main-wrapper .kecheng-container .kecheng {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 60px;
+
+}
+
+.kechengtixi-main-wrapper .pic {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 60px;
+    border: 1px solid #ff5a0b;
+}
+
+.kechengtixi-main-wrapper .pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.vip-container {
+    margin-top: 124px;
+    margin-left: 200px;
+    width: 100%;
+}
+
+.vip-container .line1 {
+    float: left;
+}
+.vip-container .line2 {
+    margin-top: 100px;
+    float: left;
+    margin-left:110px;
+}
+.vip-item {
+    float: left;
+    width: 215px;
+    margin-left: 30px;
+}
+
+.vip-item .content {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.vip {
+    background-image: url("../img/vip-circle.png");
+    width: 213px;
+    height: 213px;
+    display: table-cell;
+    /*vertical-align: middle;*/
+    text-align: center;
+    /*display: inline-block;*/
+    vertical-align: middle;
 }
