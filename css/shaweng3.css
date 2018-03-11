@@ -1624,7 +1624,6 @@
     height: 52px;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    border: 1px solid #f85415;
     background-color: #fff;
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
@@ -1752,7 +1751,6 @@
     height: 24px;
     text-align: center;
     line-height: 24px;
-    border: 1px solid #878787;
     font-weight: 300;
     margin-left: 12px;
     text-decoration: none;
@@ -2014,14 +2012,12 @@
 }
 
 .subpage-main-wrapper {
-    border: 1px solid saddlebrown;
     z-index: 1;
     /*padding-top: 100px;*/
     background-color: #fff
 }
 
 .subpage-part-container {
-    /*border: 5px solid #e10000;*/
     min-width: 1024px;
     margin-top: 60px;
     width: 100%;
@@ -2293,7 +2289,6 @@ right-strip-title-holder {
 }
 
 .contact-main-wrapper .subpage-part-container .right-strip {
-    border: 1px solid #46a3fb;
     width: 40%;
     height: 149px;
     position: absolute;
@@ -2325,7 +2320,6 @@ right-strip-title-holder {
 }
 
 .play_item {
-    border: 1px solid #ff5a0b;
     width: 270px;
     height: 323px;
     background-image: url("../img/play_small.png");
@@ -2340,7 +2334,6 @@ right-strip-title-holder {
 }
 
 .play_item:active {
-    border: 1px solid #46a3fb;
     width: 370px;
     height: 433px;
     background-image: url("../img/play_big.png");
@@ -2348,7 +2341,6 @@ right-strip-title-holder {
 }
 
 .about-main-wrapper .subpage-part-container {
-    /*border: 5px solid #e10000;*/
     min-width: 1024px;
     margin-top: 60px;
     width: 100%;
@@ -2366,7 +2358,7 @@ right-strip-title-holder {
 }
 
 .yellow_title10 {
-    /*border: 1px solid #e10000;*/
+    border: 1px solid #706900;
     padding-bottom: 10px
 }
 
@@ -2380,7 +2372,6 @@ right-strip-title-holder {
 
 .right-strip-title-holder .strip .black {
     margin-top: -20px;
-    border: 1px solid #e10000;
 }
 
 p.black1 {
@@ -2427,7 +2418,6 @@ p.black2 {
     left: 20px;
     top: 20px;
     float: left;
-    border: 1px solid;
 }
 
 .dialmod2 .text {
@@ -2458,7 +2448,6 @@ p.black2 {
 
 .content-wrapper-news .right-strip-title-holder .strip .black {
     margin-top: 42px;
-    border: 1px solid #e10000;
 }
 
 .class-type-wrapper {
@@ -2492,7 +2481,6 @@ p.black2 {
     z-index: 1;
     height: 1232px;
     background-color: #F3F3F3;
-    border: 1px solid #ff5a0b;
 }
 
 .vip-main-wrapper .subpage-part-container {
@@ -2763,7 +2751,6 @@ p.black2 {
 .frient_link .half_line {
     float: left;
     width: 45%;
-    border: 1px solid #999999;
 }
 
 .frient_link span {
@@ -2792,7 +2779,6 @@ p.black2 {
 .frient_link_line {
     height: 1px;
     width: 100%;
-    border: 1px solid #999999;
     float: left;
 }
 
@@ -2833,7 +2819,6 @@ p.black2 {
     margin-top: 100px;
     width: 100%;
     height: 330px;
-    border: 1px solid #ccc;
     position: relative;
 }
 
@@ -2924,7 +2909,6 @@ p.black2 {
 }
 
 .mode-item .content {
-    border: 5px solid #C1BEBE;
     width: 565px;
     height: 345px;
     float: left;
@@ -2998,7 +2982,6 @@ p.black2 {
 }
 
 .mode-item2 .content {
-    border: 5px solid #C1BEBE;
     width: 565px;
     height: 345px;
     float: left;
@@ -3053,7 +3036,6 @@ p.black2 {
 
 .kechengtixi-main-wrapper .kecheng-container {
     width: 100%;
-    border: 1px solid #46a3fb;
 }
 
 .kechengtixi-main-wrapper .kecheng-container .kecheng {
@@ -3067,7 +3049,6 @@ p.black2 {
     width: 60%;
     margin: 0 auto;
     margin-top: 60px;
-    border: 1px solid #ff5a0b;
 }
 
 .kechengtixi-main-wrapper .pic img {
@@ -3113,6 +3094,48 @@ p.black2 {
     vertical-align: middle;
 }
 
+@media screen and (max-width: 1920px) {
+    .waijiao-main-wrapper {
+        z-index: 1;
+        height: 1260px;
+        background-color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .waijiao-main-wrapper {
+        z-index: 1;
+        height: 1260px;
+        background-color: #FFFFFF;
+
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .waijiao-main-wrapper {
+        z-index: 1;
+        height: 1260px;
+        background-color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .waijiao-main-wrapper {
+        z-index: 1;
+        height: 1260px;
+        background-color: #FFFFFF;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .waijiao-main-wrapper {
+        z-index: 1;
+        height: 1260px;
+        background-color: #FFFFFF;
+    }
+}
+
 .waijiao-main-wrapper {
     z-index: 1;
     height: 1260px;
@@ -3141,9 +3164,16 @@ p.black2 {
     position: relative
 }
 
+.shizi-main-wrapper .subpage-part-container2 {
+    min-width: 1024px;
+    width: 100%;
+    padding: 0 40px 0 180px;
+    font-size: 20px;
+    position: relative
+}
+
 .shizi-container {
     position: relative;
-    border: 1px solid #e10000;
     width: 100%;
     height: 800px;
 }
@@ -3195,11 +3225,87 @@ p.black2 {
     color: #666666;
 }
 
+.waijiao-container {
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1080px) {
+    .subpage-part-container {
+        font-size: 16px;
+        padding: 0 40px
+    }
+}
+
 .waijiao-item {
     float: left;
     width: 100%;
     height: 314px;
     position: relative;
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1080px) {
+    .waijiao-item .waijiao {
+        width: 337px;
+        height: 175px;
+        background: url("../img/waijiao_shizi.png");
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        float: left;
+        position: absolute;
+        border: 10px solid #ff5a0b;
+    }
+
+    .waijiao-item .waijiao img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 1920px) {
+    .waijiao-item .waijiao {
+        width: 600px;
+        height: 314px;
+        background: url("../img/waijiao_shizi.png");
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        float: left;
+        position: absolute;
+    }
+
+    .waijiao-item .param {
+        width: 300px;
+        height: 314px;
+        left: 700px;
+        bottom: 0px;
+        position: absolute;
+    }
+
+    .waijiao-item .waijiao2 {
+        width: 600px;
+        height: 314px;
+        background: url("../img/waijiao_shizi.png");
+        display: table-cell;
+        bottom: 0px;
+        left: 50%;
+        text-align: center;
+        vertical-align: middle;
+        float: left;
+        position: absolute;
+    }
+
+    .waijiao-item .param2 {
+        width: 300px;
+        height: 314px;
+        left: 200px;
+        bottom: 0px;
+        position: absolute;
+    }
+
 }
 
 .waijiao-item .waijiao {
@@ -3214,7 +3320,6 @@ p.black2 {
 }
 
 .waijiao-item .param {
-    border: 10px solid #706900;
     width: 300px;
     height: 314px;
     right: 100px;
@@ -3222,23 +3327,307 @@ p.black2 {
     position: absolute;
 }
 
-.waijiao-item .param .title {
-    border: 1px solid #e10000;
+.param .title {
     font-size: 36px;
     font-family: "Microsoft Yahei-Bold";
     color: #333333;
     margin-top: 100px;
 }
 
-.waijiao-item .param .content {
+.param .content {
     font-size: 20px;
     font-family: "Microsoft Yahei";
     color: #666666;
     margin-top: 100px;
 }
 
+.param2 .title {
+    font-size: 36px;
+    font-family: "Microsoft Yahei-Bold";
+    color: #333333;
+    margin-top: 100px;
+}
 
+.param2 .content {
+    font-size: 20px;
+    font-family: "Microsoft Yahei";
+    color: #666666;
+    margin-top: 100px;
+}
 
+.waijiao-teacher-wrapper {
+    z-index: 1;
+    height: 1660px;
+    background-color: #F3F3F3;
+    border: 1px solid #ff5a0b;
+}
 
+.waijiao-teacher-wrapper .subpage-part-container {
+    min-width: 1024px;
+    width: 100%;
+    padding: 0 40px 0 180px;
+    font-size: 20px;
+    position: relative
+}
 
+.waijiao-teacher-container {
+    width: 100%;
+    margin-top: 60px;
+}
 
+.waijiao-teacher-item {
+    width: 100%;
+    height: 410px;
+    position: relative;
+    float: left;
+    margin-top: 70px;
+}
+
+.waijiao-teacher-item .teacher-content {
+    top: 56px;
+    left: 56px;
+    width: 90%;
+    height: 354px;
+    background: #FFFFFF;
+    position: absolute;
+}
+
+.waijiao-teacher-item .youxiu {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 30;
+}
+
+.teacher-content .teacher-content2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: 1px solid #e10000;
+}
+
+.teacher-content2 .title {
+    width: 300px;
+    text-align: left;
+    position: absolute;
+    left: 55%;
+    top: 66px;
+    font-size: 30px;
+    color: #333333;
+    font-family: "Microsoft YaHei";
+}
+
+.teacher-content2 .content {
+    width: 400px;
+    text-align: left;
+    position: absolute;
+    left: 55%;
+    top: 40%;
+    font-size: 16px;
+    color: #666666;
+    font-family: "Microsoft YaHei";
+}
+
+.teacher-content2 .right-icon {
+    bottom: 20px;
+    right: 100px;
+    position: absolute;
+}
+
+.waijiao-teacher-item .youxiu2 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 30;
+}
+
+.teacher-content2 .title2 {
+    border: 1px solid slateblue;
+    width: 400px;
+    text-align: left;
+    position: absolute;
+    right: 55%;
+    top: 66px;
+    font-size: 30px;
+    color: #333333;
+    font-family: "Microsoft YaHei";
+}
+
+.teacher-content2 .content2 {
+    width: 400px;
+    text-align: right;
+    position: absolute;
+    right: 55%;
+    top: 40%;
+    font-size: 16px;
+    color: #666666;
+    font-family: "Microsoft YaHei";
+}
+
+.teacher-content2 .right-icon2 {
+    bottom: 20px;
+    left: 100px;
+    position: absolute;
+}
+
+.shizi-staff-wrapper {
+    z-index: 1;
+    height: 1910px;
+    background-color: #FFFFFF;
+}
+
+.shizi-staff-wrapper .subpage-part-container {
+    min-width: 1024px;
+    width: 100%;
+    padding: 0 40px 0 180px;
+    font-size: 20px;
+    position: relative
+}
+
+.shizi-staff-wrapper .subpage-part-container2 {
+    min-width: 1024px;
+    width: 100%;
+    padding: 0 40px 0 180px;
+    font-size: 20px;
+    position: relative
+}
+
+.shizi-staff-container {
+    width: 100%;
+}
+
+.shizi-container {
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+
+.shizi-staff-item {
+    margin-top: 90px;
+    margin-left: 20%;
+    position: relative;
+    width: 1000px;
+    height: 370px;
+    background: url("../img/shizi-staff-b.png") no-repeat;
+}
+
+.shizi-staff-item .teacher {
+    margin-left: 5%;
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+}
+
+.shizi-staff-item .name {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+
+.shizi-staff-item .experience {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    width: 40%;
+}
+
+.shizi-staff-item .experience .exp-item {
+    position: relative;
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: left;
+    margin-right: 10%;
+}
+
+.exp-item .exp1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    margin: auto;
+    background-color: #FFF5B1;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    color: #666666;
+}
+
+.exp-item .content {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #333333;
+}
+
+.shizi-staff-item .profile {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    width: 45%;
+    font-size: 14px;
+    text-align: left;
+    font-family: "Microsoft YaHei";
+}
+
+.shizi-staff-item .yuyue {
+    left: 45%;
+    bottom: 3%;
+    position: absolute;
+}
+
+.shizi-staff-item .icon {
+    right: 10%;
+    bottom: 3%;
+    position: absolute;
+}
+
+.shizi-staff-item .teacher2 {
+    margin-left: 5%;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+}
+
+.shizi-staff-item .name2 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.shizi-staff-item .experience2 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 40%;
+}
+
+.shizi-staff-item .experience2 .exp-item {
+    position: relative;
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: left;
+    margin-right: 10%;
+}
+
+.shizi-staff-item .profile2 {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 45%;
+    font-size: 14px;
+    text-align: left;
+    font-family: "Microsoft YaHei";
+}
+
+.shizi-staff-item .yuyue2 {
+    left: 10%;
+    bottom: 3%;
+    position: absolute;
+}
+
+.shizi-staff-item .icon2 {
+    right: 45%;
+    bottom: 3%;
+    position: absolute;
+}
