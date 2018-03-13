@@ -47,6 +47,7 @@
 }
 
 .home-wrapper .banner {
+    border: 10px solid slateblue;
     min-height: 600px;
     min-width: 1024px;
     position: relative;
@@ -67,6 +68,7 @@
 }
 
 .home-wrapper .banner .slide {
+    /*border: 10px solid #e10000;*/
     position: absolute;
     top: 0;
     width: 100%;
@@ -144,6 +146,7 @@
 }
 
 .home-wrapper .banner .slide6 .slide1_bg {
+    /*border: 10px solid #46a3fb;*/
     width: 100%;
     height: 100%;
     position: absolute;
@@ -154,7 +157,11 @@
 }
 
 .home-wrapper .banner .slide6 .slide6_text_container {
-    padding: 0 40px 0 180px;
+
+    /*border: 10px solid #706900;*/
+    /*padding: 0 40px 0 180px;*/
+    padding: 0 0 0 0;
+
     min-width: 1024px;
     width: 100%;
     height: 100%;
@@ -163,27 +170,33 @@
 
 @media screen and (max-width: 1080px) {
     .home-wrapper .banner .slide6 .slide6_text_container {
-        padding: 0 40px
+        /*padding: 0 40px*/
     }
 }
 
 .home-wrapper .banner .slide6 .slide6_text_wrapper {
-    max-width: 1280px;
+    /*border: 10px solid #ff5a0b;*/
+    width: 100%;
+    /*max-width: 1280px;*/
     height: 100%;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     position: relative;
     white-space: nowrap
 }
 
 @media screen and (max-width: 1280px) {
     .home-wrapper .banner .slide6 .slide6_text_wrapper {
-        width: 1080px
+        /*width: 1080px;*/
+        width: 100%;
+
+        /*border: 10px solid #ff5a0b;*/
     }
 }
 
 @media screen and (max-width: 1080px) {
     .home-wrapper .banner .slide6 .slide6_text_wrapper {
         width: 1080px
+        /*width: 100%;*/
     }
 }
 
@@ -1918,7 +1931,7 @@
 
 .home-left-nav-wrapper .home-left-nav-bar {
     position: relative;
-    font-size: 20px;
+    font-size: 40px;
     z-index: 99
 }
 
@@ -1936,7 +1949,7 @@
 
 @media screen and (min-width: 1920px) {
     .home-left-nav-wrapper .home-left-nav-bar {
-        font-size: 23px
+        font-size: 50px
     }
 }
 
@@ -3908,7 +3921,8 @@ p.black2 {
     float: left;
     /*position: relative;*/
 }
-.chengnuo-item .chengnuo-img{
+
+.chengnuo-item .chengnuo-img {
     width: 160px;
     height: 160px;
     background: url("../img/home-chengnuo.png");
@@ -3916,13 +3930,244 @@ p.black2 {
     vertical-align: middle;
     display: table-cell;
 }
+
 .chengnuo-item .title {
     font-family: "Microsoft Yahei-Bold";
     font-size: 46px;
     color: #666666;
 }
+
 .chengnuo-item .content {
     font-family: "Microsoft Yahei";
     font-size: 16px;
     color: #666666;
+}
+
+.home-wrapper .main-content-wrapper {
+    margin-top: 200px;
+    font-size: 20px;
+    overflow: hidden
+}
+
+.yuyue-item {
+    /*border: 10px solid #e10000;*/
+    margin-left: 5%;
+}
+
+.yuyue-item div {
+    /*border: 10px solid #706900;*/
+    background-color: #f5f5f5;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 10px;
+    border: 1px solid #f5f5f5;
+    position: relative;
+    border-radius: 40px;
+}
+
+.yuyue-item div .icon {
+    /*float: left;*/
+    /*border: 2px solid #e10000;*/
+    margin-top: 2px;
+    display: inline-block;
+    margin-left: 25px;
+    width: 25px;
+    height: 25px;
+    background-size: 25px;
+    position: absolute;
+    left: 0.35rem;
+    top: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.yuyue-item div input {
+    background-color: #f5f5f5;
+    -webkit-user-select: auto !important;
+    user-select: all;
+    float: left;
+
+    margin-left: 60px;
+    width: 60%;
+    height: 100%;
+    line-height: 0.78rem;
+    font-size: 0.24rem;
+    border: none;
+    outline: medium;
+    /*vertical-align: center;*/
+}
+
+.yuyue-item div .icon img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.icon_name {
+    background: url("../img/home-name.png") no-repeat center center;
+}
+
+.icon_age {
+    background: url("../img/home-age.png") no-repeat center center;
+}
+
+.icon_phone {
+    background: url("../img/home-phone.png") no-repeat center center;
+}
+
+.icon_address {
+    background: url("../img/home-address.png") no-repeat center center;
+}
+
+.home-wrapper .yuyue-container {
+    width: 100%;
+    min-width: 1024px;
+    text-align: center;
+    height: 300px;
+    top: 20.4231%;
+    position: fixed;
+    font-size: 30px
+}
+
+@media screen and (max-width: 1920px) {
+    .home-wrapper .yuyue-container {
+        font-size: 29px;
+        top: 16.4231%
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    .home-wrapper .yuyue-container {
+        font-size: 28px;
+        top: 20.4231%
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .home-wrapper .yuyue-container {
+        font-size: 26px;
+        top: 20.4231%
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .home-wrapper .yuyue-container {
+        font-size: 24px;
+        top: 20.4231%
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .home-wrapper .yuyue-container {
+        font-size: 22px;
+        top: 20.4231%
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .home-wrapper .yuyue-container {
+        font-size: 18px;
+        top: 19.4231%
+    }
+}
+
+.home-wrapper .yuyue-container .yuyue-wrapper {
+    height: 100%;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    padding: 0 40px
+}
+
+@media screen and (max-width: 1920px) {
+    .home-wrapper .yuyue-container .yuyue-wrapper {
+        padding: 0 63px
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .home-wrapper .yuyue-container .yuyue-wrapper {
+        padding: 0 50px
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .home-wrapper .yuyue-container .yuyue-wrapper {
+        padding: 0 40px
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .home-wrapper .yuyue-container .yuyue-content {
+        position: absolute;
+        top: 0px;
+        right: 300px;
+        /*border: 10px solid #706900;*/
+        height: 100%;
+
+        width: 240px;
+    }
+}
+
+.home-wrapper .yuyue-container .yuyue-content {
+    position: absolute;
+    top: 0px;
+    right: 200px;
+    /*border: 10px solid #706900;*/
+    height: 100%;
+
+    width: 240px;
+}
+
+@media screen and (max-width: 1920px) {
+    .yuyue-btn {
+        width: 375px;
+        height: 105px;
+        background: url("../img/home-yuyue.png") no-repeat;
+        background-size: contain;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .yuyue-btn img {
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .yuyue-btn .yuyue-text {
+        line-height: 105px;
+        font-family: "Microsoft Yahei-Bold";
+        text-align: center;
+        vertical-align: middle;
+        font-size: 25px;
+        color: #e10000;
+    }
+}
+
+.yuyue-btn {
+    width: 225px;
+    height: 63px;
+    background: url("../img/home-yuyue.png") no-repeat;
+    background-size: contain;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.yuyue-btn img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.yuyue-btn .yuyue-text {
+    line-height: 63px;
+    font-family: "Microsoft Yahei-Bold";
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+    color: #e10000;
 }

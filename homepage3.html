@@ -13,8 +13,9 @@
     <!--<link href="//fe-static.vipkid.com.cn/img/shortcut_icon/logo-5c17ed795c.gif" type="image/x-icon"-->
     <!--rel="shortcut icon">-->
     <link rel="stylesheet" href="css/index2.css">
-    <title>VIPKID 在线少儿英语</title>
+    <title>莎翁少儿家庭英语</title>
     <link rel="stylesheet" href="css/shaweng3.css">
+    <link rel="stylesheet" href="css/footer.css">
     <script>if (typeof require === 'function' && window.module) {
         window.nodeRequire = require;
         delete window.require;
@@ -37,18 +38,21 @@
 <!--href="https://itunes.apple.com/us/app/vipkid-ying-yuhd-zai-jia-jiu/id1129607352?l=zh&amp;ls=1&amp;mt=8"-->
 <!--class="download-link js-download-link">打开移动课堂</a></div>-->
 
-<div class="home-left-nav-wrapper"><a id="js-left-nav-logo" href="/home" data-scroll="scaleDown"
-                                      class="left-nav-logo"><img id="j-logo-252"
-                                                                 src="//fe-static.vipkid.com.cn/img/vkindex/logo_252-9616247420.png"
-                                                                 alt="VIPKID"><img id="j-logo-210"
-                                                                                   src="//fe-static.vipkid.com.cn/img/vkindex/logo@2x-7dea030021.png"
-                                                                                   alt="VIPKID"
-                                                                                   style="display: none"></a>
+<div class="home-left-nav-wrapper">
+    <!--<a id="js-left-nav-logo" href="/home" data-scroll="scaleDown"-->
+    <!--class="left-nav-logo"><img id="j-logo-252"-->
+    <!--src="//fe-static.vipkid.com.cn/img/vkindex/logo_252-9616247420.png"-->
+    <!--alt="VIPKID">-->
+    <!--<img id="j-logo-210"-->
+    <!--src="//fe-static.vipkid.com.cn/img/vkindex/logo@2x-7dea030021.png"-->
+    <!--alt="VIPKID"-->
+    <!--style="display: none"></a>-->
+
     <div data-scroll="scrollup" class="home-left-nav-bar">
         <a href="./homepage3.html" class="active">莎翁首页</a>
         <a href="./teach_mode.html">教学模式</a>
         <a href="./kechengtixi.html">课程体系</a>
-        <a href="./shizi.html" >专业师资</a>
+        <a href="./shizi.html">专业师资</a>
         <a href="./aboutus2.html">关于莎翁</a>
 
     </div>
@@ -88,30 +92,72 @@
                                                     alt="玩转全球" class="slide3-img-1"/></div>
             </div>
             <div data-currentpage="1" class="pagination-container j-current-page">
-                <div class="mouse-gif-container js-mouse-gif-container">
-                    <div class="mouse-border"><img
-                            src="//fe-static.vipkid.com.cn/img/vkindex/home/mouse_rolling-163a76e807.gif"
-                            class="mouse-rolling"/></div>
-                </div>
+                <!--<div class="mouse-gif-container js-mouse-gif-container">-->
+                <!--<div class="mouse-border"><img-->
+                <!--src="//fe-static.vipkid.com.cn/img/vkindex/home/mouse_rolling-163a76e807.gif"-->
+                <!--class="mouse-rolling"/></div>-->
+                <!--</div>-->
                 <div class="pagination"><span
                         class="active"><i></i></span><span><i></i></span><span><i></i></span><span><i></i></span><span><i>   </i></span>
                 </div>
             </div>
         </div>
-        <div id="js-signup-dis" class="signup-container">
-            <div class="signup-wrapper">
-                <div id="js-mobile" class="signup-content">
-                    <div class="signup-title-new js-signup-title"><p class="p1 color-change">免费领取</p>
-                        <p class="p2 color-change">价值<span class="color-change">288元</span></p>
-                        <p class="p3 color-change">试听课</p></div>
-                    <div class="box-border">
-                        <div class="icon-mobile"><img
-                                src="//fe-static.vipkid.com.cn/img/vkindex/home/icon-mobile-35c26cf073.png"/></div>
-                        <input type="text" maxlength="11" placeholder="请输入您的手机号"/>
-                        <div class="message"></div>
+        <div id="js-signup-dis" class="yuyue-container">
+            <div class="yuyue-wrapper">
+                <div id="js-mobile" class="yuyue-content">
+                    <div><p class="p1 color-change">免费试听</p></div>
+                    <!--&lt;!&ndash;<p class="p2 color-change">价值<span class="color-change">288元</span></p>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<p class="p3 color-change">试听课</p>&ndash;&gt;-->
+                    <!--</div>-->
+                    <!--<div class="box-border">-->
+                    <!--<div class="icon-mobile"><img-->
+                    <!--src="//fe-static.vipkid.com.cn/img/vkindex/home/icon-mobile-35c26cf073.png"/></div>-->
+                    <!--<input type="text" maxlength="11" placeholder="请输入您的手机号"/>-->
+                    <!--<div class="message"></div>-->
+                    <!--</div>-->
+                    <div class="yuyue-item">
+                        <div class="home-name">
+                            <div class="icon"><img src="img/home-name.png"></img></div>
+
+                            <input type="text" id="name" name="mgeYuYueUser.name"
+                                   maxlength="6"
+                                   placeholder="请输入学生姓名"
+                                   onfocus="this.placeholder=''"
+                                   onblur="this.placeholder='请输入学生姓名'"></div>
+                        <div class="home-age">
+                            <div class="icon"><img src="img/home-age.png"></img></div>
+                            <input type="number" id="age" name="mgeYuYueUser.age"
+                                   oninput="if(value.length>3)value=value.slice(0,3)"
+                                   placeholder="请输入学生年龄"
+                                   onfocus="this.placeholder=''"
+                                   onblur="this.placeholder='请输入学生年龄'"></div>
+                        <div class="home-phone">
+                            <div class="icon"><img src="img/home-phone.png"></img></div>
+                            <input type="tel" id="telphone"
+                                   maxlength="11"
+                                   name="mgeYuYueUser.telphone"
+                                   placeholder="请输入联系电话"
+                                   onfocus="this.placeholder=''"
+                                   onblur="this.placeholder='请输入联系电话'"></div>
+                        <div class="home-address">
+                            <div class="icon"><img src="img/home-address.png"></img></div>
+                            <input type="text" id="address"
+                                   name="mgeYuYueUser.address"
+                                   placeholder="请输入家庭地址"
+                                   onfocus="this.placeholder=''"
+                                   onblur="this.placeholder='请输入家庭地址'">
+
+                        </div>
                     </div>
-                    <a src="#" target="_blank" data-sa-click="parent_pc_signup_click_box"
-                       class="btn-receive btn-receive-btn">立即领取</a></div>
+                    <div class="yuyue-btn">
+                        <!--<img src="img/home-yuyue.png">-->
+                        <span class="yuyue-text">点击预约</span>
+                    </div>
+                    <!--<div class="submit_btn">预约体验课程</div>-->
+
+                    <!--<a src="#" target="_blank" data-sa-click="parent_pc_signup_click_box"-->
+                    <!--class="btn-receive btn-receive-btn">立即领取</a>-->
+                </div>
             </div>
         </div>
     </div>
