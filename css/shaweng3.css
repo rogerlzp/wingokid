@@ -59,6 +59,7 @@
 }
 
 .home-wrapper .banner .slide-list {
+
     position: fixed;
     top: 0;
     left: 0;
@@ -918,19 +919,45 @@
     padding: 60px 80px 0 180px;
     background-color: #fff;
     position: relative;
-    border: 1px solid #46a3fb;
     z-index: 1;
     overflow: hidden
 }
 
+@media screen and (max-width: 1440px) {
+    .home-wrapper .part1 {
+        padding: 50px 40px 0 40px
+    }
+}
+
 @media screen and (max-width: 1080px) {
     .home-wrapper .part1 {
-        padding: 60px 80px 0 40px
+        /*padding: 200px 80px 0 40px*/
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .home-wrapper .part1 .part-container {
+        max-width: 1080px;
+        height: 762px;
+        width: 80%;
+        margin: 0 auto;
+        position: relative
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .home-wrapper .part1 .part-container {
+        max-width: 1280px;
+        width: 70%;
+        height: 762px;
+        margin: 0 auto;
+        position: relative
     }
 }
 
 .home-wrapper .part1 .part-container {
     max-width: 1280px;
+    /*margin-left: 200px;*/
     height: 762px;
     margin: 0 auto;
     position: relative
@@ -960,15 +987,16 @@
     padding-top: 20px
 }
 
-.home-wrapper .part1 .part-container .part1_text_container p.main {
-    font-size: 3.2em;
-    margin-bottom: 15px
+.home-wrapper .part1 .part-container .part1_text_container logo {
+    border: 1px solid #e10000;
+    margin-bottom: 20px
 }
 
-.home-wrapper .part1 .part-container .part1_text_container p.sub {
-    font-size: 1.7em;
-    color: #888787;
-    line-height: 1.3em
+.home-wrapper .part1 .part-container .part1_text_container p.title {
+    line-height: 40px;
+    font-size: 36px;
+    font-family: "Microsoft YaHei";
+
 }
 
 .home-wrapper .part1 .part-container .part1_info_con_row {
@@ -1124,7 +1152,8 @@
 }
 
 .home-wrapper .part2-wrapper {
-    padding: 0 0 100px;
+    width: 100%;
+    /*padding: 60px 80px 0 180px;*/
     background-color: #F2F9FD;
     height: 946px;
     border: 1px solid #e10000;
@@ -1132,9 +1161,9 @@
 }
 
 .home-wrapper .part2-title {
+    border: 1px solid #ff5a0b;
     min-width: 1024px;
     width: 100%;
-    padding: 10px 40px 0 180px;
     background-color: #F3F3F3;
     position: relative;
     z-index: 1;
@@ -3658,14 +3687,17 @@ p.black2 {
     position: relative;
     width: 1200px;
     height: 900px;
-    border: 1px solid #ff5a0b;
+}
+
+.china-pic img {
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .china-pic .main1 {
     position: absolute;
     text-align: center;
     left: 0px;
-
 }
 
 .china-pic .left {
@@ -3684,11 +3716,96 @@ p.black2 {
     position: absolute;
     bottom: 0px;
     left: 0px;
+    width: 1200px;
+}
+
+.china-pic .right img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.china-pic .left img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.china-pic .bottom img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media screen and (max-width: 1920px) {
+    .china-pic {
+        position: relative;
+        width: 1200px;
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .china-pic {
+        position: relative;
+        width: 900px;
+        height: 675px;
+    }
+
+    .china-pic .main1 {
+        position: absolute;
+        text-align: center;
+        left: 0px;
+        top: 0px;
+        width: 900px;
+        height: 675px;
+    }
+
+    .china-pic .left {
+        position: absolute;
+        bottom: 3%;
+        left: 5%;
+        width: 125px;
+        height: 132px;
+    }
+
+    .china-pic .right {
+        position: absolute;
+        bottom: 3%;
+        right: 5%;
+        width: 162px;
+        height: 118px;
+    }
+
+    .china-pic .bottom {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 900px;
+        height: 4px;
+    }
+}
+
+.shuozi {
+    margin-top: 10px;
 }
 
 .shuozi-item {
     float: left;
-    width: 25%;
+    width: 22%;
+    text-align: left;
+}
+
+.shuozi-item:nth-child(2) {
+    width: 29%;
+}
+
+.shuozi-item:nth-child(3) {
+    width: 21%;
+}
+
+.shuozi-item:nth-child(4) {
+    width: 28%;
 }
 
 .shuozi-item .title .span1 {
@@ -4154,6 +4271,10 @@ p.black2 {
     background-size: contain;
     text-align: center;
     vertical-align: middle;
+}
+
+.yuyue-btn:hover {
+    cursor: pointer;
 }
 
 .yuyue-btn img {

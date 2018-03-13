@@ -80,9 +80,7 @@
                     src="img/banner1.png"
                     class="lookchina-img-text"/></div>
             <div style="display:none" class="slide slide5 slide-tkxgiving"><img
-                    src="img/banner1.png" alt=""/><a
-                    href="https://d.vipkid.com.cn/cVyt"><img
-                    src="//fe-static.vipkid.com.cn/img/vkindex/banner/jfsc-button-8757562991.png" alt=""/></a></div>
+                    src="img/banner1.png" alt=""/></div>
             <div style="display:none" class="slide slide4 slide-fieldtrip">
                 <div class="qjnh-title-img"><img
                         src="//fe-static.vipkid.com.cn/img/vkindex/banner/qijinanhai-title-19bf7615d4.png"/></div>
@@ -92,13 +90,12 @@
                                                     alt="玩转全球" class="slide3-img-1"/></div>
             </div>
             <div data-currentpage="1" class="pagination-container j-current-page">
-                <!--<div class="mouse-gif-container js-mouse-gif-container">-->
-                <!--<div class="mouse-border"><img-->
-                <!--src="//fe-static.vipkid.com.cn/img/vkindex/home/mouse_rolling-163a76e807.gif"-->
-                <!--class="mouse-rolling"/></div>-->
-                <!--</div>-->
-                <div class="pagination"><span
-                        class="active"><i></i></span><span><i></i></span><span><i></i></span><span><i></i></span><span><i>   </i></span>
+                <div class="pagination">
+                    <span class="active"><i></i></span>
+                    <span><i></i></span>
+                    <span><i></i></span>
+                    <span><i></i></span>
+                    <span><i></i></span>
                 </div>
             </div>
         </div>
@@ -149,10 +146,17 @@
 
                         </div>
                     </div>
+
                     <div class="yuyue-btn">
                         <!--<img src="img/home-yuyue.png">-->
                         <span class="yuyue-text">点击预约</span>
                     </div>
+
+                    <!--class="btn-receive btn-receive-btn">立即领取</a>-->
+                    <!--<div class="yuyue-btn">-->
+                    <!--&lt;!&ndash;<img src="img/home-yuyue.png">&ndash;&gt;-->
+                    <!--<span class="yuyue-text">点击预约</span>-->
+                    <!--</div>-->
                     <!--<div class="submit_btn">预约体验课程</div>-->
 
                     <!--<a src="#" target="_blank" data-sa-click="parent_pc_signup_click_box"-->
@@ -163,11 +167,12 @@
     </div>
     <div class="main-content-wrapper">
         <div class="part1">
-            <div data-scroll="stripleft" data-scrollfix="600" class="part1_yellow_strip"></div>
+            <!--<div data-scroll="stripleft" data-scrollfix="600" class="part1_yellow_strip"></div>-->
             <div class="part-container">
-                <div class="part1_text_container j-parallax-1"><p class="main">WINGOKID</p>
-                    <p class="sub">专注于3-12岁少儿英语教育</p>
-                    <p class="sub">外教上门营造全英语环境</p></div>
+                <div class="part1_text_container">
+                    <div class="logo"><img src="img/wingokid-logo.png"> </div>
+                    <p class="title">专注于3-12岁少儿英语教育</p>
+                    <p class="title">外教上门营造全英语环境</p></div>
                 <div class="china-pic">
                     <div class="main1"><img src="img/home-china.png"></div>
                     <div class="left"><img src="img/home-left.png"></div>
@@ -196,11 +201,6 @@
                         <div class="content"><span>是转介绍</span></div>
                     </div>
                 </div>
-                <!--<div data-scroll="shadowmove" class="part1_info_con_shadow"></div>-->
-                <!--<img src="//fe-static.vipkid.com.cn/img/vkindex/main/lane-2-d4bc203da3.png" alt="teacher"-->
-                <!--class="part1_img_teacher"/><img-->
-                <!--src="//fe-static.vipkid.com.cn/img/vkindex/teacher_shadow-e8b8a44ada.png" alt="teacher"-->
-                <!--class="part1_img_teacher_shadow"/>-->
             </div>
         </div>
 
@@ -406,6 +406,7 @@
 <input type="hidden" id="indexItemActiveIndicator" value="index" style="display: none !important">
 
 <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="js/new_index.js"></script>
 <script>
     $(function () {
         $(".home-culture-item").hover(function () {
