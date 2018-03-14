@@ -1176,6 +1176,44 @@
     }
 }
 
+.about-title {
+    min-width: 1024px;
+    height: 308px;
+    width: 100%;
+    background-color: #F3F3F3;
+    /*position: relative;*/
+    z-index: 1;
+    overflow: hidden
+}
+
+.vip-title {
+    min-width: 1024px;
+    height: 200px;
+    width: 100%;
+    background-color: #F3F3F3;
+    /*position: relative;*/
+    z-index: 1;
+    overflow: hidden
+}
+
+.tixi-title {
+    min-width: 1024px;
+    height: 208px;
+    width: 100%;
+    background-color: #F3F3F3;
+    /*position: relative;*/
+    z-index: 1;
+    border: 1px solid #333333;
+    overflow: hidden
+}
+
+@media screen and (max-width: 1080px) {
+    .part2-title {
+        /*border: 1px solid #e10000;*/
+        padding: 0px 40px 0
+    }
+}
+
 .shizi-title {
     min-width: 1024px;
     height: 210px;
@@ -1217,6 +1255,29 @@
     }
 }
 
+.about-main-wrapper .part2-title {
+    min-width: 1024px;
+    height: 208px;
+    width: 100%;
+    background-color: #F3F3F3;
+    /*position: relative;*/
+    z-index: 1;
+    overflow: hidden
+}
+
+@media screen and (max-width: 1080px) {
+    .about-main-wrapper .part2-title {
+        /*border: 1px solid #e10000;*/
+        padding: 0px 40px 0
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .about-main-wrapper .part2-title {
+        /*border: 1px solid #e10000;*/
+    }
+}
+
 .common-title {
     padding-top: 56px;
     min-width: 1024px;
@@ -1231,6 +1292,15 @@
     height: 200px;
     width: 100%;
     background-color: #FFFFFF;
+    /*position: relative;*/
+    z-index: 1;
+    overflow: hidden
+}
+
+.zhuxiu-title {
+    min-width: 1024px;
+    height: 150px;
+    width: 100%;
     /*position: relative;*/
     z-index: 1;
     overflow: hidden
@@ -1261,6 +1331,23 @@
         max-width: 1280px;
         margin: 0 auto
     }
+}
+
+.zhuxiu-container {
+    max-width: 1280px;
+    margin: 0 auto
+}
+
+@media screen and (max-width: 1440px) {
+    .zhuxiu-container {
+        width: 65%;
+        max-width: 1280px;
+        margin: 0 auto
+    }
+}
+
+.zhuxiu-container .pic {
+    margin-top: 120px;
 }
 
 .home-wrapper .j-parallax-2 {
@@ -1330,6 +1417,98 @@
     }
 }
 
+.about-part {
+    min-width: 1024px;
+    border: 4px solid #F0902F;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    font-size: 20px
+}
+
+@media screen and (max-width: 1080px) {
+    .about-part {
+        font-size: 14px;
+        padding: 0 40px
+    }
+}
+
+.about-main-wrapper .about-container {
+    border: 10px solid #e10000;
+    max-width: 1280px;
+    margin: 0 auto
+}
+
+@media screen and (max-width: 1440px) {
+    .about-main-wrapper .about-container {
+        border: 10px solid #F0902F;
+        /*margin-left: 10%;*/
+        width: 70%;
+        max-width: 1280px;
+        margin: 0 auto
+    }
+}
+
+.about-container .content {
+    width: 630px;
+    height: 424px;
+    background: url("../img/about-brand1.png") no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.about-container .content span {
+    position: absolute;
+}
+
+.waijiao-part {
+    min-width: 1024px;
+    width: 100%;
+    /*height: 502px;*/
+    /*padding: 0 40px 0 180px;*/
+    background-color: #F3F3F3;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    font-size: 20px
+}
+
+@media screen and (max-width: 1440px) {
+    .waijiao-part {
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .waijiao-part {
+        font-size: 14px;
+        padding: 0 40px
+    }
+}
+
+.shizi-staff-part {
+    min-width: 1024px;
+    width: 100%;
+    /*height: 502px;*/
+    /*padding: 0 40px 0 180px;*/
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    font-size: 20px
+}
+
+@media screen and (max-width: 1440px) {
+    .shizi-staff-part {
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .shizi-staff-part {
+        font-size: 14px;
+        padding: 0 40px
+    }
+}
+
 .home-wrapper .part3 {
     min-width: 1024px;
     width: 100%;
@@ -1346,6 +1525,35 @@
     }
 }
 
+.vip-part {
+    min-width: 1024px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    font-size: 20px
+}
+
+@media screen and (max-width: 1080px) {
+    .vip-part {
+        font-size: 14px;
+        padding: 0 40px
+    }
+}
+
+.vip-part .vip-container {
+    max-width: 1280px;
+    margin: 0 auto
+}
+
+@media screen and (max-width: 1440px) {
+    .vip-part .vip-container {
+        width: 65%;
+        max-width: 1280px;
+        margin: 0 auto
+    }
+}
+
 .home-wrapper .part4 {
     min-width: 1024px;
     width: 100%;
@@ -1357,6 +1565,22 @@
 
 @media screen and (max-width: 1080px) {
     .home-wrapper .part4 {
+        font-size: 14px;
+        padding: 0 40px
+    }
+}
+
+.zhuxiu-part {
+    min-width: 1024px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    font-size: 20px
+}
+
+@media screen and (max-width: 1080px) {
+    .zhuxiu-part {
         font-size: 14px;
         padding: 0 40px
     }
@@ -2066,13 +2290,11 @@
 /*-ms-transform-origin: 0 0;*/
 /*transform-origin: 0 0*/
 /*}*/
-
 /*@media screen and (min-width: 1600px) {*/
 /*.home-left-nav-wrapper .left-nav-logo {*/
 /*margin-bottom: 40px*/
 /*}*/
 /*}*/
-
 /*.home-left-nav-wrapper .left-nav-logo.scale-down {*/
 /*-webkit-transform: scale(.833333);*/
 /*-moz-transform: scale(.833333);*/
@@ -2080,7 +2302,6 @@
 /*-ms-transform: scale(.833333);*/
 /*transform: scale(.833333)*/
 /*}*/
-
 .home-left-nav-wrapper .left-nav-logo img {
     display: block;
     margin: 0 auto;
@@ -2099,13 +2320,11 @@
 /*display: none*/
 /*}*/
 /*}*/
-
 /*@media screen and (min-width: 1600px) {*/
 /*.home-left-nav-wrapper .home-left-nav-bar {*/
 /*font-size: 23px*/
 /*}*/
 /*}*/
-
 @media screen and (min-width: 1920px) {
     .home-left-nav-wrapper .home-left-nav-bar {
         font-size: 50px
@@ -2254,7 +2473,6 @@
 /*color: #FED74A;*/
 /*font-size: 8rem;*/
 /*}*/
-
 .subpage-banner-bg-holder .title {
     top: -80px;
     left: 0px;
@@ -2284,7 +2502,6 @@
 /*top: 0;*/
 /*right: 0*/
 /*}*/
-
 @media screen and (max-width: 1080px) {
     .subpage-banner-bg-holder {
         width: 97%
@@ -2523,7 +2740,9 @@ right-strip-title-holder {
 
 .about-main-wrapper {
     z-index: 1;
+    border: 1px solid #e10000;
     /*padding-top: 100px;*/
+    width: 100%;
     height: 1030px;
     background-color: #F3F3F3
 }
@@ -2644,6 +2863,27 @@ right-strip-title-holder {
     font-family: "Microsoft Yahei";
 }
 
+.yellow-title15 .title3 {
+    position: absolute;
+    top: -20px;
+    left: 25%;
+    font-size: 48px;
+    color: #333333;
+    font-family: "Microsoft Yahei";
+    font-weight: bold;
+}
+
+.yellow-title15 .title4 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 100%;
+    font-size: 30px;
+    line-height: 30px;
+    color: #333333;
+    font-family: "Microsoft Yahei";
+}
+
 .yellow-title13 {
     width: 40%;
     height: 40%;
@@ -2652,8 +2892,47 @@ right-strip-title-holder {
     padding-bottom: 10px
 }
 
+.yellow-title18 {
+    margin-top: 5%;
+    width: 60%;
+    height: 40%;
+    background-color: #ffe84a;
+    position: relative;
+    padding-bottom: 10px
+}
+
+@media screen and (min-width: 1080px) and (max-width: 1440px) {
+    .yellow-title18 {
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .yellow-title18 {
+        margin-top: 5%;
+    }
+}
+
 .teach-mode {
     width: 60%;
+}
+
+.yellow-title18 .title1 {
+    position: absolute;
+    top: -20px;
+    right: -30px;
+    font-size: 80px;
+    color: #333333;
+    font-family: "Microsoft Yahei-Bold";
+}
+
+.yellow-title18 .title2 {
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    font-size: 36px;
+    color: #333333;
+    font-family: "Microsoft Yahei";
 }
 
 .yellow-title13 .title1 {
@@ -2726,10 +3005,55 @@ right-strip-title-holder {
     padding-bottom: 10px
 }
 
+.common-title16 {
+    width: 100%;
+    height: 60%;
+    position: relative;
+    padding-bottom: 10px
+}
+
+.common-title17 {
+    width: 100%;
+    height: 60%;
+    position: relative;
+    padding-bottom: 10px
+}
+
 @media screen and (min-width: 1080px) and (max-width: 1440px) {
     .common-title13 {
         width: 55%;
     }
+}
+
+.common-title14 {
+    width: 90%;
+    height: 60%;
+    position: relative;
+    padding-bottom: 10px
+}
+
+@media screen and (min-width: 1080px) and (max-width: 1440px) {
+    .common-title14 {
+        width: 90%;
+    }
+}
+
+.common-title14 .title1 {
+    position: absolute;
+    left: 20%;
+    font-size: 48px;
+    color: #333333;
+    font-family: "Microsoft Yahei-Bold";
+}
+
+.common-title14 .title2 {
+    position: absolute;
+    width: 100%;
+    top: 70%;
+    left: 20%;
+    font-size: 30px;
+    color: #333333;
+    font-family: "Microsoft Yahei";
 }
 
 .common-title13 .title1 {
@@ -2764,6 +3088,36 @@ right-strip-title-holder {
     width: 100%;
     left: 40%;
     font-size: 36px;
+    color: #333333;
+    font-family: "Microsoft Yahei";
+    font-weight: bold;
+}
+
+.common-title17 .title1 {
+    position: absolute;
+    left: 20%;
+    font-size: 48px;
+    color: #333333;
+    font-family: "Microsoft Yahei-Bold";
+    font-weight: bold;
+}
+
+.common-title17 .title2 {
+    position: absolute;
+    margin-top: 60px;
+    width: 100%;
+    left: 20%;
+    font-size: 38px;
+    color: #333333;
+    font-family: "Microsoft Yahei";
+}
+
+.common-title16 .title1 {
+    position: absolute;
+    border: 1px solid #e10000;
+    width: 60%;
+    left: 20%;
+    font-size: 48px;
     color: #333333;
     font-family: "Microsoft Yahei";
     font-weight: bold;
@@ -2899,14 +3253,17 @@ p.black2 {
 }
 
 .kechengtixi-main-wrapper {
+    border: 1px solid #e10000;
     z-index: 1;
     height: 1323px;
+    width: 100%;
     background-color: #F3F3F3
 }
 
 .zhuxiu-main-wrapper {
     z-index: 1;
     height: 1232px;
+    padding-top: 65px;
     background-color: #FFFFFF;
 }
 
@@ -2919,6 +3276,7 @@ p.black2 {
 }
 
 .vip-main-wrapper {
+    padding-top: 62px;
     z-index: 1;
     height: 1232px;
     background-color: #F3F3F3;
@@ -2963,7 +3321,6 @@ p.black2 {
 /*font-size: 20px;*/
 /*position: relative*/
 /*}*/
-
 .content-wrapper {
     z-index: 1;
     /*padding-top: 100px;*/
@@ -3399,7 +3756,6 @@ p.black2 {
 /*margin-top: -107px;*/
 /*margin-left: -107px;*/
 /*}*/
-
 .animal-wrapper {
     border: 3px solid #46a3fb;
     text-align: center;
@@ -3454,7 +3810,6 @@ p.black2 {
 /*.target_item:nth-child(1) {*/
 /*margin-left: 10%;*/
 /*}*/
-
 .target_item .content {
     margin-top: 48px;
     font-size: 36px;
@@ -3749,6 +4104,12 @@ p.black2 {
     height: 100%;
 }
 
+.kecheng {
+    font-size: 24px;
+    color: #333333;
+    margin-left: 10px;
+}
+
 .vip-container {
     margin-top: 124px;
     margin-left: 200px;
@@ -3867,11 +4228,10 @@ p.black2 {
 }
 
 /*.shizi-container {*/
-    /*position: relative;*/
-    /*width: 100%;*/
-    /*height: 800px;*/
+/*position: relative;*/
+/*width: 100%;*/
+/*height: 800px;*/
 /*}*/
-
 .shizi-container .pic1 {
     position: absolute;
     bottom: 0px;
@@ -3926,12 +4286,6 @@ p.black2 {
 .shizi-container img {
     max-width: 100%;
     max-height: 100%;
-}
-
-.waijiao-container {
-    width: 100%;
-    height: 400px;
-    margin-top: 50px;
 }
 
 @media screen and (max-width: 1440px) {
@@ -3993,6 +4347,22 @@ p.black2 {
     }
 }
 
+.waijiao-container {
+    position: relative;
+    max-width: 1280px;
+    height: 1060px;
+    margin: 0 auto;
+    /*width: 70%;*/
+    /*height: 400px;*/
+    /*margin-top: 50px;*/
+}
+
+@media screen and (max-width: 1440px) {
+    .waijiao-container {
+        width: 60%;
+    }
+}
+
 .waijiao-item {
     float: left;
     width: 100%;
@@ -4000,7 +4370,34 @@ p.black2 {
     position: relative;
 }
 
+.waijiao-item .waijiao {
+    width: 600px;
+    height: 314px;
+    background: url("../img/waijiao_shizi.png");
+    background-size: contain;
+    /*display: table-cell;*/
+    text-align: center;
+    /*vertical-align: middle;*/
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.waijiao-item:nth-child(2) .waijiao {
+    right: 0px;
+    top: 0px;
+}
+
+.waijiao-item .waijiao img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 @media only screen and (min-width: 960px) and (max-width: 1080px) {
+    .waijiao-item {
+        height: 175px;
+    }
+
     .waijiao-item .waijiao {
         width: 337px;
         height: 175px;
@@ -4010,12 +4407,30 @@ p.black2 {
         vertical-align: middle;
         float: left;
         position: absolute;
-        border: 10px solid #ff5a0b;
     }
 
-    .waijiao-item .waijiao img {
-        max-width: 100%;
-        height: auto;
+}
+
+@media only screen and (min-width: 1080px) and (max-width: 1440px) {
+    .waijiao-item {
+        float: left;
+        width: 100%;
+        height: 236px;
+        position: relative;
+    }
+
+    .waijiao-item .waijiao {
+        width: 450px;
+        height: 234px;
+        border: 10px solid #e10000;
+
+        /*background: url("../img/waijiao_shizi.png");*/
+
+        /*display: table-cell;*/
+        /*text-align: center;*/
+        /*vertical-align: middle;*/
+        /*float: left;*/
+        /*position: absolute;*/
     }
 
 }
@@ -4063,42 +4478,80 @@ p.black2 {
 
 }
 
-.waijiao-item .waijiao {
-    width: 600px;
-    height: 314px;
-    background: url("../img/waijiao_shizi.png");
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    float: left;
-    position: absolute;
-}
-
-.waijiao-item .param {
-    width: 300px;
-    height: 314px;
-    right: 100px;
-    bottom: 0px;
-    position: absolute;
-}
-
-.param .title {
+.waijiao-item .title {
     font-size: 36px;
-    font-family: "Microsoft Yahei-Bold";
+    font-family: "SimHei";
     color: #333333;
-    margin-top: 100px;
+    margin-top: 50px;
+    font-weight: bold;
+    left: 55%;
+    top: 5%;
+    position: absolute;
 }
 
-.param .content {
+.waijiao-item .content {
     font-size: 20px;
-    font-family: "Microsoft Yahei";
+    font-family: "SimHei";
     color: #666666;
+    margin-top: 20px;
+    left: 55%;
+    top: 30%;
+    position: absolute;
+}
+
+.waijiao-item .baoming-btn {
+    border: 1px solid #B2B2B2;
+    width: 100px;
+    height: 40px;
     margin-top: 100px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    left: 55%;
+    bottom: 30%;
+    position: absolute;
+}
+
+.waijiao-item:nth-child(2) .title {
+    font-size: 36px;
+    font-family: "SimHei";
+    color: #333333;
+    margin-top: 50px;
+    font-weight: bold;
+    left: 30%;
+
+    top: 5%;
+    position: absolute;
+}
+
+.waijiao-item:nth-child(2) .content {
+    font-size: 20px;
+    font-family: "SimHei";
+    color: #666666;
+    margin-top: 20px;
+    text-align: left;
+    left: 5%;
+    width: 40%;
+    top: 30%;
+    position: absolute;
+}
+
+.waijiao-item:nth-child(2) .baoming-btn {
+    border: 1px solid #B2B2B2;
+    width: 100px;
+    height: 40px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    left: 30%;
+    bottom: 30%;
+    position: absolute;
 }
 
 .param2 .title {
     font-size: 36px;
-    font-family: "Microsoft Yahei-Bold";
+    font-family: "SimHei";
     color: #333333;
     margin-top: 100px;
 }
@@ -4114,7 +4567,6 @@ p.black2 {
     z-index: 1;
     height: 1660px;
     background-color: #F3F3F3;
-    border: 1px solid #ff5a0b;
 }
 
 .waijiao-teacher-wrapper .subpage-part-container {
@@ -4126,8 +4578,17 @@ p.black2 {
 }
 
 .waijiao-teacher-container {
-    width: 100%;
-    margin-top: 60px;
+    max-width: 1280px;
+    margin: 0 auto
+}
+
+@media screen and (max-width: 1440px) {
+    .waijiao-teacher-container {
+        /*margin-left: 10%;*/
+        width: 70%;
+        max-width: 1280px;
+        margin: 0 auto
+    }
 }
 
 .waijiao-teacher-item {
@@ -4248,7 +4709,17 @@ p.black2 {
 }
 
 .shizi-staff-container {
-    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto
+}
+
+@media screen and (max-width: 1440px) {
+    .shizi-staff-container {
+        /*margin-left: 10%;*/
+        width: 70%;
+        max-width: 1280px;
+        margin: 0 auto
+    }
 }
 
 /*.shizi-main-wrapper .shizi-container {*/
@@ -4256,7 +4727,6 @@ p.black2 {
 /*width: 100%;*/
 /*height: 800px;*/
 /*}*/
-
 .shizi-main-wrapper .shizi-container {
     position: relative;
     max-width: 1280px;
@@ -4279,6 +4749,7 @@ p.black2 {
     width: 1000px;
     height: 370px;
     background: url("../img/shizi-staff-b.png") no-repeat;
+    background-size: contain;
 }
 
 .shizi-staff-item .teacher {
@@ -4400,6 +4871,12 @@ p.black2 {
     right: 45%;
     bottom: 3%;
     position: absolute;
+}
+
+@media screen and (max-width: 1440px) {
+    .shizi-staff-item {
+        width: 750px;
+    }
 }
 
 .china-pic {
@@ -4686,7 +5163,6 @@ p.black2 {
 /*max-height: 100%;*/
 /*max-width: 100%;*/
 /*}*/
-
 .reason-item .content {
     position: absolute;
     bottom: 10%;
