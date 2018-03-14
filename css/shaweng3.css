@@ -1176,6 +1176,23 @@
     }
 }
 
+.shizi-title {
+    min-width: 1024px;
+    height: 210px;
+    width: 100%;
+    background-color: #F3F3F3;
+    /*position: relative;*/
+    z-index: 1;
+    overflow: hidden
+}
+
+@media screen and (max-width: 1080px) {
+    .shizi-title {
+        /*border: 1px solid #e10000;*/
+        padding: 0px 40px 0
+    }
+}
+
 .home-wrapper .part2-title {
     min-width: 1024px;
     height: 308px;
@@ -1201,7 +1218,7 @@
 }
 
 .common-title {
-    margin-top: 56px;
+    padding-top: 56px;
     min-width: 1024px;
     height: 200px;
     width: 100%;
@@ -2574,12 +2591,57 @@ right-strip-title-holder {
     padding-bottom: 10px
 }
 
+.yellow-title-shizi {
+    margin-top: 5%;
+    width: 100%;
+    height: 40%;
+    background-color: #f3f3f3;
+    position: relative;
+    padding-bottom: 10px
+}
+
 .right-strip14 {
     width: 50%;
     height: 100%;
     position: absolute;
     background-color: #ffe84a;
     left: 0
+}
+
+.yellow-title15 {
+    margin-top: 5%;
+    width: 80%;
+    height: 40%;
+    background-color: #FFFFFF;
+    position: relative;
+    padding-bottom: 10px
+}
+
+.right-strip15 {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: #ffe84a;
+    left: 0
+}
+
+.yellow-title15 .title1 {
+    position: absolute;
+    top: -20px;
+    left: 25%;
+    font-size: 38px;
+    color: #333333;
+    font-family: "Microsoft Yahei-Bold";
+}
+
+.yellow-title15 .title2 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 100%;
+    font-size: 36px;
+    color: #333333;
+    font-family: "Microsoft Yahei";
 }
 
 .yellow-title13 {
@@ -2631,6 +2693,26 @@ right-strip-title-holder {
     font-family: "Microsoft Yahei";
 }
 
+.yellow-title-shizi .title1 {
+    position: absolute;
+    top: -20px;
+    left: 25%;
+    font-size: 48px;
+    font-weight: bold;
+    color: #333333;
+    font-family: "Microsoft Yahei-Bold";
+}
+
+.yellow-title-shizi .title-shizi {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    width: 60%;
+    font-size: 30px;
+    color: #333333;
+    font-family: "Microsoft Yahei";
+}
+
 @media screen and (min-width: 1080px) and (max-width: 1440px) {
     .yellow-title14 .title2 {
         font-size: 30px;
@@ -2642,6 +2724,12 @@ right-strip-title-holder {
     height: 60%;
     position: relative;
     padding-bottom: 10px
+}
+
+@media screen and (min-width: 1080px) and (max-width: 1440px) {
+    .common-title13 {
+        width: 55%;
+    }
 }
 
 .common-title13 .title1 {
@@ -2793,6 +2881,23 @@ p.black2 {
     background-color: #FFFFFF
 }
 
+.class-type-wrapper .class-container {
+    max-width: 1280px;
+    margin: 0 auto
+}
+
+@media screen and (max-width: 1440px) {
+    .class-type-wrapper .class-container {
+        width: 80%;
+        max-width: 1280px;
+        margin: 0 auto
+    }
+}
+
+.class-type-title {
+    background-color: #FFFFFF;
+}
+
 .kechengtixi-main-wrapper {
     z-index: 1;
     height: 1323px;
@@ -2829,6 +2934,7 @@ p.black2 {
 
 .teach-target-wrapper {
     z-index: 1;
+    /*border:  1px solid #F0902F;*/
     /*padding-top: 100px;*/
     height: 667px;
     background-color: #FFFFFF
@@ -2844,18 +2950,19 @@ p.black2 {
 
 .teach-mode-wrapper {
     z-index: 1;
+    /*border: 1px solid #e10000;*/
     /*padding-top: 100px;*/
     height: 1551px;
     background-color: #F3F3F3
 }
 
-.teach-mode-wrapper .subpage-part-container {
-    min-width: 1024px;
-    width: 100%;
-    padding: 0 40px 0 180px;
-    font-size: 20px;
-    position: relative
-}
+/*.teach-mode-wrapper .subpage-part-container {*/
+/*min-width: 1024px;*/
+/*width: 100%;*/
+/*padding: 0 40px 0 180px;*/
+/*font-size: 20px;*/
+/*position: relative*/
+/*}*/
 
 .content-wrapper {
     z-index: 1;
@@ -3261,7 +3368,6 @@ p.black2 {
 
 @media screen and (max-width: 1440px) {
     .teach-target-wrapper .teach-target-container {
-        border: 1px solid #e10000;
         width: 65%;
         max-width: 1280px;
         margin: 0 auto
@@ -3269,28 +3375,85 @@ p.black2 {
 }
 
 .animal {
-    border: 1px solid #e10000;
-    background-image: url("../img/animal_circle.png");
+    background: url("../img/animal_circle.png") no-repeat;
     width: 213px;
     height: 213px;
-    display: table-cell;
-    /*vertical-align: middle;*/
-    text-align: center;
+    position: relative;
+    background-size: contain;
+
     /*display: inline-block;*/
+    /*vertical-align: middle;*/
+    /*margin: 0 auto;*/
+    display: table-cell;
+    /*!*!*vertical-align: middle;*!*!*/
+    text-align: center;
+    /*!*!*display: inline-block;*!*!*/
     vertical-align: middle;
+}
+
+/*.animal img {*/
+/*border: 1px solid #46a3fb;*/
+/*position: relative;*/
+/*top: 50%;*/
+/*left: 50%;*/
+/*margin-top: -107px;*/
+/*margin-left: -107px;*/
+/*}*/
+
+.animal-wrapper {
+    border: 3px solid #46a3fb;
+    text-align: center;
+    /*width: 213px;*/
+    width: 100%;
+}
+
+.teach-target-container ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+.teach-target-container ul li {
+    margin-left: 10%;
+    display: inline-block;
 }
 
 .target_item {
     float: left;
-    border: 1px solid #46a3fb;
-    margin-left: 5%;
+    /*width: 33%;*/
+    /*border: 1px solid #706900;*/
     text-align: center;
+    /*background-position-x: 5%;*/
 }
-.target_item:nth-child(2){
-    border: 1px solid #e10000;
-    margin-right: 1%;
-    margin-left: 8%;
+
+.target_item:nth-child(2) {
+    float: left;
+    /*width: 33%;*/
+    /*border: 1px solid #706900;*/
+    text-align: center;
+    /*background-position-x: 5%;*/
 }
+
+.target_item:nth-child(1) {
+    float: left;
+    width: 30%;
+    margin-left: 3%;
+    margin-right: 2%;
+    /*border: 1px solid #706900;*/
+    text-align: center;
+    /*background-position-x: 5%;*/
+}
+
+.target_item2 {
+    float: left;
+    width: 100%;
+    /*border: 1px solid #706900;*/
+    text-align: center;
+    /*background-position-x: 5%;*/
+}
+
+/*.target_item:nth-child(1) {*/
+/*margin-left: 10%;*/
+/*}*/
 
 .target_item .content {
     margin-top: 48px;
@@ -3299,15 +3462,41 @@ p.black2 {
     color: #333333;
 }
 
+.target_item:nth-child(2) .content {
+    margin-top: 48px;
+    margin-right: 20px;
+    font-size: 36px;
+    font-family: "Microsoft Yahei-Bold";
+    color: #333333;
+}
+
+.teach-mode-wrapper .teach-mode-container {
+    max-width: 1280px;
+    margin: 0 auto
+}
+
+@media screen and (max-width: 1440px) {
+    .teach-mode-wrapper .teach-mode-container {
+        width: 80%;
+        max-width: 1280px;
+        margin: 0 auto
+    }
+}
+
 .mode-item {
     margin-left: 200px;
     float: left;
-    margin-top: 50px;
+    margin-top: 200px;
     position: relative;
+}
+
+.mode-item:nth-child(1) {
+    margin-top: 50px;
 }
 
 .mode-item .pic {
     background-image: url("../img/teach_mode1.png");
+    background-size: contain;
     width: 488px;
     height: 300px;
     position: relative;
@@ -3316,6 +3505,7 @@ p.black2 {
 }
 
 .mode-item .content {
+    border: 4px solid #B2B2B2;
     width: 565px;
     height: 345px;
     float: left;
@@ -3358,6 +3548,32 @@ p.black2 {
     color: #666666;
 }
 
+.mode-item2 .content div span:first-child {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    font-size: 30px;
+    color: #333333;
+}
+
+.mode-item2 .content div span:nth-child(2) {
+    position: absolute;
+    text-align: left;
+    top: 45%;
+    left: 15%;
+    font-size: 24px;
+    color: #666666;
+}
+
+.mode-item2 .content div span:nth-child(3) {
+    position: absolute;
+    text-align: right;
+    top: 55%;
+    left: 15%;
+    font-size: 24px;
+    color: #666666;
+}
+
 .mode-item .pic .p1 {
     position: absolute;
     bottom: 20px;
@@ -3371,28 +3587,49 @@ p.black2 {
 }
 
 .mode-item2 {
-    margin-left: 200px;
+    margin-left: 500px;
     float: left;
-    margin-top: 50px;
+    margin-top: 200px;
     position: relative;
 }
 
 .mode-item2 .pic {
-    background-image: url("../img/teach_mode1.png");
+    background-image: url("../img/teach_mode2.png");
+    background-size: contain;
     width: 488px;
     height: 300px;
     position: relative;
     float: left;
     z-index: 50;
-    right: -400px;
-    bottom: -10px;
+    /*right: -400px;*/
+    /*bottom: -10px;*/
+}
+
+.mode-item .pic div img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.mode-item2 .pic .p1 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.mode-item2 .pic .p2 {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
 }
 
 .mode-item2 .content {
+    border: 4px solid #B2B2B2;
     width: 565px;
     height: 345px;
     float: left;
     position: absolute;
+    left: -400px;
+    bottom: -10px;
     z-index: 10;
 }
 
@@ -3401,6 +3638,42 @@ p.black2 {
     float: left;
     width: 100%;
     height: 100%;
+}
+
+@media screen and (max-width: 1440px) {
+
+    .mode-item:nth-child(2) {
+        margin-top: 200px;
+    }
+
+    .mode-item .pic {
+        width: 366px;
+        height: 225px;
+    }
+
+    .mode-item2 .pic {
+        width: 366px;
+        height: 225px;
+    }
+
+    .mode-item .content {
+        width: 424px;
+        height: 260px;
+        float: left;
+        position: absolute;
+        right: -300px;
+        bottom: -10px;
+        z-index: 10;
+    }
+
+    .mode-item2 .content {
+        width: 424px;
+        height: 260px;
+        left: -300px;
+        bottom: -10px;
+        z-index: 10;
+    }
+
 }
 
 .class-container {
@@ -3425,6 +3698,19 @@ p.black2 {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+}
+
+@media screen and (max-width: 1440px) {
+    .class-container .class-item {
+        float: left;
+        width: 372px;
+        height: 421px;
+    }
+
+    .class-container .class-item .video {
+        width: 372px;
+        height: 323px;
+    }
 }
 
 .class-container .class-item .video img {
@@ -3558,6 +3844,7 @@ p.black2 {
 }
 
 .shizi-main-wrapper {
+    /*padding-top: 42px;*/
     z-index: 1;
     height: 909px;
     background-color: #F3F3F3;
@@ -3579,15 +3866,17 @@ p.black2 {
     position: relative
 }
 
-.shizi-container {
-    position: relative;
-    width: 100%;
-    height: 800px;
-}
+/*.shizi-container {*/
+    /*position: relative;*/
+    /*width: 100%;*/
+    /*height: 800px;*/
+/*}*/
 
 .shizi-container .pic1 {
     position: absolute;
     bottom: 0px;
+    width: 416px;
+    height: 643px;
     left: 200px;
     z-index: 10;
 }
@@ -3597,25 +3886,27 @@ p.black2 {
     bottom: 10px;
     left: 600px;
     z-index: 20;
+    width: 285px;
+    height: 688px;
 }
 
 .shizi-container .p1 {
     position: absolute;
-    top: 120px;
-    left: 800px;
+    top: 40px;
+    left: 820px;
     z-index: 30;
 }
 
 .shizi-container .p2 {
     position: absolute;
-    top: 330px;
+    top: 250px;
     left: 900px;
     z-index: 30;
 }
 
 .shizi-container .p3 {
     position: absolute;
-    top: 560px;
+    top: 500px;
     left: 880px;
     z-index: 30;
 }
@@ -3632,10 +3923,67 @@ p.black2 {
     color: #666666;
 }
 
+.shizi-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .waijiao-container {
     width: 100%;
     height: 400px;
     margin-top: 50px;
+}
+
+@media screen and (max-width: 1440px) {
+
+    .shizi-container .pic1 {
+        left: 100px;
+        width: 312px;
+        height: 483px;
+
+    }
+
+    .shizi-container .pic2 {
+        position: absolute;
+        width: 214px;
+        height: 516px;
+        bottom: 10px;
+        left: 400px;
+        z-index: 20;
+    }
+
+    .shizi-container .p1 {
+        position: absolute;
+        top: 120px;
+        left: 550px;
+        z-index: 30;
+    }
+
+    .shizi-container .p2 {
+        position: absolute;
+        top: 330px;
+        left: 625px;
+        z-index: 30;
+    }
+
+    .shizi-container .p3 {
+        position: absolute;
+        top: 560px;
+        left: 610px;
+        z-index: 30;
+    }
+
+    .shizi-container div .title {
+        font-size: 27px;
+        color: #333333;
+        margin-bottom: 22px;
+    }
+
+    .shizi-container div .content {
+        font-size: 18px;
+        line-height: 20px;
+        color: #666666;
+    }
 }
 
 @media screen and (max-width: 1080px) {
@@ -3903,10 +4251,25 @@ p.black2 {
     width: 100%;
 }
 
-.shizi-container {
+/*.shizi-main-wrapper .shizi-container {*/
+/*position: relative;*/
+/*width: 100%;*/
+/*height: 800px;*/
+/*}*/
+
+.shizi-main-wrapper .shizi-container {
     position: relative;
-    width: 100%;
-    height: 800px;
+    max-width: 1280px;
+    height: 700px;
+    margin: 0 auto
+}
+
+@media screen and (max-width: 1440px) {
+    .shizi-main-wrapper .shizi-container {
+        width: 65%;
+        max-width: 1280px;
+        margin: 0 auto
+    }
 }
 
 .shizi-staff-item {
