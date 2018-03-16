@@ -234,11 +234,11 @@ body, html {
     background: #fff
 }
 
-.modal-dialog-hd {
-    font-size: 18px;
-    color: $ gray_dark;
-    margin-bottom: 18px
-}
+/*.modal-dialog-hd {*/
+    /*font-size: 18px;*/
+    /*color: $ gray_dark;*/
+    /*margin-bottom: 18px*/
+/*}*/
 
 .modal-dialog-bd {
     margin-bottom: 28px;
@@ -255,12 +255,12 @@ body, html {
     width: 200px
 }
 
-@media $desktop {
+/*@media $desktop {*/
 
-    .onemodal-black {
-        width: 300px
-    }
-}
+    /*.onemodal-black {*/
+        /*width: 300px*/
+    /*}*/
+/*}*/
 
 .onemodal-black img {
     display: block;
@@ -299,23 +299,23 @@ body, html {
     padding: 20px
 }
 
-.modals-group .onemodal-hd .icon-close {
-    float: right;
-    cursor: pointer;
-    color: $ fancy_gray_30
-}
+/*.modals-group .onemodal-hd .icon-close {*/
+    /*float: right;*/
+    /*cursor: pointer;*/
+    /*color: $ fancy_gray_30*/
+/*}*/
 
 .modals-group .onemodal-hd h4 {
     font-size: 16px
 }
 
-.modals-group .onemodal-hd h4.text-success {
-    color: $ deep_green_50
-}
+/*.modals-group .onemodal-hd h4.text-success {*/
+    /*color: $ deep_green_50*/
+/*}*/
 
-.modals-group .onemodal-hd h4.text-error {
-    color: $ red_50
-}
+/*.modals-group .onemodal-hd h4.text-error {*/
+    /*color: $ red_50*/
+/*}*/
 
 .modals-group .onemodal-bd {
     padding: 30px;
@@ -334,13 +334,13 @@ body, html {
     line-height: 1
 }
 
-.modals-group .onemodal-bd .icon-wrong {
-    color: $ red_50
-}
+/*.modals-group .onemodal-bd .icon-wrong {*/
+    /*color: $(red_50)*/
+/*}*/
 
-.modals-group .onemodal-bd .icon-ghicon {
-    color: $ deep_green_50
-}
+/*.modals-group .onemodal-bd .icon-ghicon {*/
+    /*color: $deep_green_50*/
+/*}*/
 
 .modals-group .onemodal-loading {
     padding: 50px 30px
