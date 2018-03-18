@@ -51,7 +51,7 @@
 }
 
 .home-wrapper .banner {
-    border: 100px solid slateblue;
+    border: 10px solid #784696;
     min-height: 600px;
     min-width: 1024px;
     position: relative;
@@ -63,6 +63,7 @@
 }
 
 .home-wrapper .banner .slide-list {
+    /*border: 10px solid #46a3fb;*/
     position: fixed;
     top: 0;
     left: 0;
@@ -161,10 +162,9 @@
 
 .home-wrapper .banner .slide6 .slide6_text_container {
 
-    /*border: 10px solid #706900;*/
+    border: 10px solid #706900;
     /*padding: 0 40px 0 180px;*/
     padding: 0 0 0 0;
-
     min-width: 1024px;
     width: 100%;
     height: 100%;
@@ -179,6 +179,8 @@
 
 .home-wrapper .banner .slide6 .slide6_text_wrapper {
     /*border: 10px solid #ff5a0b;*/
+    background-image: url("../img/banner1.png");
+    background-size: 100% 100%;
     width: 100%;
     /*max-width: 1280px;*/
     height: 100%;
@@ -2464,6 +2466,9 @@
 }
 
 .home-left-nav-wrapper .home-left-nav-bar {
+    border: 1px solid #e10000;
+    /*padding-top: 120px;*/
+    /**/
     margin-top: 120px;
     position: relative;
     font-size: 40px;
@@ -5634,7 +5639,8 @@ p.black2 {
     height: 40px;
     line-height: 40px;
     text-align: center;
-    width: 90%;
+    width: 95%;
+    margin-left: 2.5%;
     margin-bottom: 10px;
     border: 1px solid #f5f5f5;
     position: relative;
@@ -5660,16 +5666,14 @@ p.black2 {
 .yuyue-item div input {
     background-color: #f5f5f5;
     -webkit-user-select: auto !important;
-    -webkit-appearance: none;
-!important;
+    -webkit-appearance: none !important;
     user-select: all;
     float: left;
     margin-left: 60px;
-    width: 60%;
+    width: 65%;
     height: 100%;
     line-height: 24px;
     font-size: 24px;
-
     color: #666666;
     border: none;
     outline: medium;
@@ -5722,7 +5726,7 @@ p.black2 {
     min-width: 1024px;
     text-align: center;
     height: 300px;
-    top: 20.4231%;
+    top: 10%;
     position: fixed;
     font-size: 30px
 }
@@ -5730,42 +5734,36 @@ p.black2 {
 @media screen and (max-width: 1920px) {
     .home-wrapper .yuyue-container {
         font-size: 29px;
-        top: 16.4231%
     }
 }
 
 @media screen and (max-width: 1680px) {
     .home-wrapper .yuyue-container {
         font-size: 28px;
-        top: 20.4231%
     }
 }
 
 @media screen and (max-width: 1440px) {
     .home-wrapper .yuyue-container {
         font-size: 26px;
-        top: 20.4231%
     }
 }
 
 @media screen and (max-width: 1366px) {
     .home-wrapper .yuyue-container {
         font-size: 24px;
-        top: 20.4231%
     }
 }
 
 @media screen and (max-width: 1280px) {
     .home-wrapper .yuyue-container {
         font-size: 22px;
-        top: 20.4231%
     }
 }
 
 @media screen and (max-width: 1080px) {
     .home-wrapper .yuyue-container {
         font-size: 18px;
-        top: 19.4231%
     }
 }
 
@@ -5795,31 +5793,24 @@ p.black2 {
     }
 }
 
-@media screen and (max-width: 1920px) {
-    .home-wrapper .yuyue-container .yuyue-content {
-        position: absolute;
-        top: 0px;
-        right: 300px;
-        /*border: 10px solid #706900;*/
-        height: 100%;
-
-        width: 300px;
-    }
-}
-
 .home-wrapper .yuyue-container .yuyue-content {
     position: absolute;
     top: 0px;
-    right: 200px;
-    /*border: 10px solid #706900;*/
+    right: 15%;
     height: 100%;
+    width: 380px;
+}
 
-    width: 240px;
+@media screen and (min-width: 1920px) {
+    .home-wrapper .yuyue-container .yuyue-content {
+        width: 400px;
+    }
 }
 
 .home-yuyue {
     width: 100%;
-    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;
     text-align: center;
 }
 
@@ -5827,38 +5818,11 @@ p.black2 {
     width: 50%;
 }
 
-@media screen and (max-width: 1920px) {
-    .yuyue-btn {
-        width: 375px;
-        height: 105px;
-        background: url("../img/home-yuyue.png") no-repeat;
-        background-size: contain;
-        text-align: center;
-        vertical-align: middle;
-    }
-
-    .yuyue-btn img {
-        width: 100%;
-        height: 100%;
-        max-width: 100%;
-        max-height: 100%;
-    }
-
-    .yuyue-btn .yuyue-text {
-        line-height: 105px;
-        font-family: "Microsoft Yahei-Bold";
-        text-align: center;
-        vertical-align: middle;
-        font-size: 25px;
-        color: #e10000;
-    }
-}
-
 .yuyue-btn {
     width: 225px;
     height: 63px;
     background: url("../img/home-yuyue.png") no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
     text-align: center;
     vertical-align: middle;
 }
@@ -5876,9 +5840,54 @@ p.black2 {
 
 .yuyue-btn .yuyue-text {
     line-height: 63px;
-    font-family: "Microsoft Yahei-Bold";
+    font-family: "Microsoft Yahei";
+    font-weight: bold;
     text-align: center;
     vertical-align: middle;
-    font-size: 30px;
+    font-size: 32px;
     color: #e10000;
+}
+
+@media screen and (max-width: 1440px) {
+    .home-wrapper .yuyue-container .yuyue-content {
+        width: 360px;
+    }
+
+    .yuyue-btn .yuyue-text {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .home-wrapper .yuyue-container .yuyue-content {
+        width: 320px;
+    }
+
+    .yuyue-btn .yuyue-text {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .yuyue-btn {
+        width: 100%;
+        height: 105px;
+    }
+
+    .yuyue-btn .yuyue-text {
+        line-height: 105px;
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .yuyue-btn {
+        width: 100%;
+        height: 105px;
+    }
+
+    .yuyue-btn .yuyue-text {
+        line-height: 105px;
+        font-size: 40px;
+    }
 }
