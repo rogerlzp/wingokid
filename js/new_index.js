@@ -304,13 +304,15 @@
         var f = new i;
         $(".next").click(function () {
             f.nextItem()
-        }), $(".last").click(function () {
-            f.lastItem()
-        }), r(), c(), l(), $(".play-icon").hover(function () {
-            $(this).css("color", "#f60"), $(this).find("img").attr("src", "//fe-static.vipkid.com.cn/img/vkindex/usersevaluation/icon-play2-4658ce3064.png")
-        }, function () {
-            $(this).css("color", "#4a90e2"), $(this).find("img").attr("src", "//fe-static.vipkid.com.cn/img/vkindex/usersevaluation/icon-play-34182845a5.png")
-        }), $("#js-gulou-video").hover(function () {
+        }),
+            $(".last").click(function () {
+                f.lastItem()
+            }), r(), c(), l(),
+            $(".play-icon").hover(function () {
+                $(this).css("color", "#f60"), $(this).find("img").attr("src", "//fe-static.vipkid.com.cn/img/vkindex/usersevaluation/icon-play2-4658ce3064.png")
+            }, function () {
+                $(this).css("color", "#4a90e2"), $(this).find("img").attr("src", "//fe-static.vipkid.com.cn/img/vkindex/usersevaluation/icon-play-34182845a5.png")
+            }), $("#js-gulou-video").hover(function () {
             $(this).find("img").attr("src", "//fe-static.vipkid.com.cn/img/vkindex/usersevaluation/play-icon2-b0faae0d1c.png")
         }, function () {
             $(this).find("img").attr("src", "//fe-static.vipkid.com.cn/img/vkindex/usersevaluation/play-icon-1d9db98521.png")
@@ -324,7 +326,8 @@
                 o.parentNode.insertBefore(e, o)
             }()
         }()
-    }, 236: function (e, o, t) {
+    },
+    236: function (e, o, t) {
         function n() {
             $(".js-download-client").hide(), $(".js-index-wrapper").css("margin-top", "0px"), $(".js-home-header-wrapper").css("top", "0px"), $(".home-left-nav-wrapper").css("top", "0px"), $(".register-login-box").css("top", "15px")
         }
@@ -522,7 +525,8 @@
         p && ($(".js-download-client").show(), $(".js-index-wrapper").css("margin-top", "60px"), $(".js-home-header-wrapper").css("top", "60px"), $(".home-left-nav-wrapper").css("top", "60px"), $(".register-login-box").css("top", "75px")), $(window).width() <= 1080 && $("body").addClass("ipad"), u && p && n(), $(".js-icon-close").click(function () {
             n()
         }), e.exports = c
-    }, 4: function (e, o, t) {
+    },
+    4: function (e, o, t) {
         var n, i = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (e) {
             return typeof e
         } : function (e) {

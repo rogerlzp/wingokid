@@ -154,15 +154,13 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    background: #f85415;
+    background: #ffd838;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     background-size: 100% 100%
 }
 
 .home-wrapper .banner .slide6 .slide6_text_container {
-
-    border: 10px solid #706900;
     /*padding: 0 40px 0 180px;*/
     padding: 0 0 0 0;
     min-width: 1024px;
@@ -811,34 +809,6 @@
     width: 100%
 }
 
-.home-wrapper .pagination-container .mouse-gif-container {
-    width: 100px;
-    text-align: center;
-    margin: 0 auto
-}
-
-.home-wrapper .pagination-container .mouse-gif-container .mouse-border {
-    position: relative;
-    display: inline-block;
-    width: 28px;
-    background-repeat: no-repeat;
-    background-image: url(//fe-static.vipkid.com.cn/img/vkindex/home/mouse_border-f6e3a9cac1.png);
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    background-size: contain;
-    height: 35px;
-    text-align: center
-}
-
-.home-wrapper .pagination-container .mouse-gif-container .mouse-border img {
-    display: inline-block;
-    position: absolute;
-    width: 10px;
-    top: 0;
-    left: 0;
-    width: 24px
-}
-
 .home-wrapper .pagination-container .pagination {
     width: 514px;
     margin: 30px auto 0;
@@ -939,6 +909,14 @@
     }
 }
 
+.home-wrapper .part1 .part-container {
+    max-width: 1280px;
+    /*margin-left: 200px;*/
+    height: 762px;
+    margin: 0 auto;
+    position: relative
+}
+
 @media screen and (max-width: 1080px) {
     .home-wrapper .part1 .part-container {
         max-width: 1080px;
@@ -957,14 +935,6 @@
         margin: 0 auto;
         position: relative
     }
-}
-
-.home-wrapper .part1 .part-container {
-    max-width: 1280px;
-    /*margin-left: 200px;*/
-    height: 762px;
-    margin: 0 auto;
-    position: relative
 }
 
 .home-wrapper .part1 .part-container:before {
@@ -1165,6 +1135,7 @@
 
 .part2-title {
     min-width: 1024px;
+    border: 1px solid #e10000;
     height: 308px;
     width: 100%;
     background-color: #F3F3F3;
@@ -1175,7 +1146,6 @@
 
 @media screen and (max-width: 1080px) {
     .part2-title {
-        /*border: 1px solid #e10000;*/
         padding: 0px 40px 0
     }
 }
@@ -1545,6 +1515,8 @@
     color: #333333;
     overflow: hidden;
     float: left;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/about-brand1.png', sizingMethod='scale');
+
 }
 
 .about-container .about-player {
@@ -2466,13 +2438,10 @@
 }
 
 .home-left-nav-wrapper .home-left-nav-bar {
-    border: 1px solid #e10000;
-    /*padding-top: 120px;*/
-    /**/
     margin-top: 120px;
     position: relative;
-    font-size: 40px;
-    font-family: 黑体;
+    font-size: 36px;
+    font-family: "Microsoft YaHei";
     font-weight: bold;
     z-index: 99
 }
@@ -2495,7 +2464,7 @@
 
 @media screen and (max-width: 1440px) {
     .home-left-nav-wrapper .home-left-nav-bar {
-        font-size: 40px
+        font-size: 35px
     }
 }
 
@@ -3067,6 +3036,7 @@ right-strip-title-holder {
 .yellow-title13 {
     width: 40%;
     height: 40%;
+    margin-top: 5%;
     background-color: #ffe84a;
     position: relative;
     padding-bottom: 10px
@@ -3927,6 +3897,8 @@ p.black2 {
     background-image: url("../img/play_small.png");
     background-size: contain;
     margin-top: 10%;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/play_small.png', sizingMethod='scale');
+
 }
 
 .play-item.active {
@@ -3937,6 +3909,8 @@ p.black2 {
     height: 443px;
     margin-top: 5%;
     position: relative;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/play_big.png', sizingMethod='scale');
+
 }
 
 .video-play .play-item:nth-child(2) {
@@ -4141,6 +4115,24 @@ p.black2 {
     color: #666666;
 }
 
+.mode-item .content div > span + span {
+    position: absolute;
+    text-align: left;
+    top: 45%;
+    left: 45%;
+    font-size: 24px;
+    color: #666666;
+}
+
+.mode-item .content div > span + span + span {
+    position: absolute;
+    text-align: left;
+    top: 55%;
+    left: 45%;
+    font-size: 24px;
+    color: #666666;
+}
+
 .mode-item .content div span:nth-child(3) {
     position: absolute;
     text-align: left;
@@ -4167,7 +4159,25 @@ p.black2 {
     color: #666666;
 }
 
+.mode-item2 .content div > span + span {
+    position: absolute;
+    text-align: left;
+    top: 45%;
+    left: 15%;
+    font-size: 24px;
+    color: #666666;
+}
+
 .mode-item2 .content div span:nth-child(3) {
+    position: absolute;
+    text-align: right;
+    top: 55%;
+    left: 15%;
+    font-size: 24px;
+    color: #666666;
+}
+
+.mode-item2 .content div > span + span + span {
     position: absolute;
     text-align: right;
     top: 55%;
@@ -4203,8 +4213,6 @@ p.black2 {
     position: relative;
     float: left;
     z-index: 50;
-    /*right: -400px;*/
-    /*bottom: -10px;*/
 }
 
 .mode-item .pic div img {
@@ -4374,6 +4382,7 @@ p.black2 {
 }
 
 .vip-item {
+    border: 1px solid #e10000;
     float: left;
     width: 215px;
     margin-left: 30px;
@@ -4394,6 +4403,8 @@ p.black2 {
     text-align: center;
     /*display: inline-block;*/
     vertical-align: middle;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/vip-circle.png', sizingMethod='scale');
+
 }
 
 @media screen and (max-width: 1440px) {
@@ -4661,6 +4672,16 @@ p.black2 {
     position: absolute;
 }
 
+.waijiao-item.second-waijiao .title {
+    font-size: 36px;
+    font-family: "SimHei";
+    color: #333333;
+    font-weight: bold;
+    left: 25%;
+    top: 5%;
+    position: absolute;
+}
+
 .waijiao-item:nth-child(2) .title {
     font-size: 36px;
     font-family: "SimHei";
@@ -4668,6 +4689,18 @@ p.black2 {
     font-weight: bold;
     left: 25%;
     top: 5%;
+    position: absolute;
+}
+
+.waijiao-item.second-waijiao .content {
+    font-size: 20px;
+    font-family: "SimHei";
+    color: #666666;
+    margin-top: 20px;
+    text-align: left;
+    left: 5%;
+    width: 40%;
+    top: 20%;
     position: absolute;
 }
 
@@ -4684,6 +4717,18 @@ p.black2 {
 }
 
 .waijiao-item:nth-child(2) .baoming-btn {
+    border: 1px solid #B2B2B2;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    left: 30%;
+    bottom: 25%;
+    position: absolute;
+}
+
+.waijiao-item.second-waijiao .baoming-btn {
     border: 1px solid #B2B2B2;
     width: 100px;
     height: 40px;
@@ -4714,7 +4759,6 @@ p.black2 {
     width: 100%;
     height: 410px;
     position: relative;
-    /*float: left;*/
     margin-top: 70px;
 }
 
@@ -4739,7 +4783,6 @@ p.black2 {
     width: 100%;
     height: 410px;
     position: relative;
-    /*float: left;*/
     margin-top: 70px;
 }
 
@@ -4965,6 +5008,7 @@ p.black2 {
     height: 370px;
     background: url("../img/shizi-staff-b.png") no-repeat;
     background-size: 100% 100%;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/shizi-staff-b.png', sizingMethod='scale');
 }
 
 .shizi-staff-item .teacher {
@@ -5115,6 +5159,7 @@ p.black2 {
 
 .china-pic {
     position: relative;
+    border: 1px solid #e10000;
     width: 1200px;
     height: 900px;
 }
@@ -5146,7 +5191,8 @@ p.black2 {
     position: absolute;
     bottom: 0px;
     left: 0px;
-    width: 1200px;
+    width: 100%;
+    /*width: 1200px;*/
 }
 
 .china-pic .right img {
@@ -5405,6 +5451,7 @@ p.black2 {
     position: absolute;
     bottom: 0px;
     left: 0px;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/home-culture.png', sizingMethod='scale');
 }
 
 .content1 .home-culture-wrapper2 {
@@ -5433,16 +5480,10 @@ p.black2 {
     position: absolute;
     right: 50px;
     bottom: 40px;
-    /*bottom: 0px;*/
 }
 
 .home-culture-item .right-icon {
-    display: none;
-}
-
-.home-culture-item .right-icon img {
-    max-width: 100%;
-    max-height: 100%;
+    visibility: hidden;
 }
 
 .home-culture-item:hover .right-icon {
@@ -5457,27 +5498,17 @@ p.black2 {
     .home-culture-item {
         float: left;
         position: relative;
-        /*width: 218px;*/
         height: 300px;
     }
 
     .home-culture-item .content1 {
         width: 200px;
         height: 282px;
-        background: url("../img/home-culture.png") no-repeat;
-        background-size: contain;
-        position: absolute;
-        bottom: 0px;
-        left: 0px;
     }
 
     .content1 .home-culture-wrapper2 {
         width: 200px;
         height: 210px;
-        /*position: relative;*/
-        text-align: center;
-        vertical-align: middle;
-        display: table-cell;
     }
 
     .content1 .title {
@@ -5505,20 +5536,12 @@ p.black2 {
     .home-culture-item {
         float: left;
         position: relative;
-        /*width: 200px;*/
-        /*width: 100%;*/
         height: 300px;
-        /*margin-left: 5px;*/
     }
 
     .home-culture-item .content1 {
         width: 190px;
         height: 282px;
-        background: url("../img/home-culture.png") no-repeat;
-        background-size: contain;
-        position: absolute;
-        bottom: 0px;
-        left: 0px;
     }
 
     .content1 .home-culture-wrapper2 {
@@ -5588,17 +5611,11 @@ p.black2 {
 }
 
 .chengnuo-item .chengnuo-img {
-    /*position: absolute;*/
-    /*border: 1px solid #46a3fb;*/
-
     width: 160px;
     height: 160px;
     margin-left: 40px;
     background-image: url("../img/home-chengnuo.png");
     background-size: contain;
-
-    /*background-position:top;*/
-    /*background-attachment:fixed;*/
 
     text-align: center;
     vertical-align: middle;
@@ -5606,7 +5623,6 @@ p.black2 {
 }
 
 .chengnuo-item .title {
-    /*border: 1px solid #706900;*/
     margin-top: 30px;
     font-family: "Microsoft Yahei-Bold";
     font-size: 46px;
@@ -5629,12 +5645,10 @@ p.black2 {
 }
 
 .yuyue-item {
-    /*border: 10px solid #e10000;*/
     margin-left: 5%;
 }
 
 .yuyue-item div {
-    /*border: 10px solid #706900;*/
     background-color: #f5f5f5;
     height: 40px;
     line-height: 40px;
@@ -5648,8 +5662,6 @@ p.black2 {
 }
 
 .yuyue-item div .icon {
-    /*float: left;*/
-    /*border: 2px solid #e10000;*/
     margin-top: 2px;
     display: inline-block;
     margin-left: 25px;
@@ -5825,6 +5837,8 @@ p.black2 {
     background-size: 100% 100%;
     text-align: center;
     vertical-align: middle;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/home-yuyue.png', sizingMethod='scale');
+
 }
 
 .yuyue-btn:hover {

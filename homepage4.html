@@ -24,15 +24,9 @@
         delete window.module;
     }
     </script>
+
 </head>
 <body class="full-screen-height">
-<!--<input type="hidden" name="sensrosUrl" id="sensrosUrl"-->
-<!--value="https://sensorsdata.vipkid.com.cn/sa"><input type="hidden"-->
-<!--name="host_learning"-->
-<!--id="host_learning"-->
-<!--value="http://learning.vipkid.com.cn"><input-->
-<!--type="hidden" name="parent_share_url" id="parent_share_url" value="undefined">-->
-
 <div class="home-left-nav-wrapper">
     <div data-scroll="scrollup" class="home-left-nav-bar">
         <a href="./homepage3.html" class="active">莎翁首页</a>
@@ -54,9 +48,7 @@
                 </div>
                 <div class="slide6_text_container">
                     <div class="slide6_text_wrapper">
-               <!--         <img
-                            src="img/banner1.png" alt="让孩子爱学敢说"
-                    />-->
+                        <img src="img/banner1.png" alt="让孩子爱学敢说"/>
                     </div>
                 </div>
             </div>
@@ -132,7 +124,6 @@
     </div>
     <div class="main-content-wrapper">
         <div class="part1">
-            <!--<div data-scroll="stripleft" data-scrollfix="600" class="part1_yellow_strip"></div>-->
             <div class="part-container">
                 <div class="part1_text_container">
                     <div class="logo"><img src="img/wingokid-logo.png"></div>
@@ -183,11 +174,7 @@
                         <div class="seperator1"></div>
                         <div class="reason-item">
                             <div class="upside">
-                                <!--<div class="upside-wrapper"></div>-->
-                                <!--<img src="img/home-reason1.png">-->
-                                <!--<div class="upside-wrapper">-->
                                 <img src="img/home-reason1-2.png">
-                                <!--</div>-->
                             </div>
                             <div class="content"><p>全职外教</p>
                                 <p>上门授课</p></div>
@@ -195,9 +182,7 @@
                         <div class="seperator2"></div>
                         <div class="reason-item">
                             <div class="upside">
-                                <!--<div class="upside-wrapper">-->
                                 <img src="img/home-reason2-2.png">
-                                <!--</div>-->
                             </div>
                             <div class="content"><p>高效学习</p>
                                 <p>线下+线上</p></div>
@@ -205,9 +190,7 @@
                         <div class="seperator3"></div>
                         <div class="reason-item">
                             <div class="upside">
-                                <!--<div class="upside-wrapper">-->
                                 <img src="img/home-reason3-2.png">
-                                <!--</div>-->
                             </div>
                             <div class="content"><p>个性化</p>
                                 <p>课程定制</p></div>
@@ -215,9 +198,7 @@
                         <div class="seperator4"></div>
                         <div class="reason-item">
                             <div class="upside">
-                                <!--<div class="upside-wrapper">-->
                                 <img src="img/home-reason4-2.png">
-                                <!--</div>-->
                             </div>
                             <div class="content"><p>全英语</p>
                                 <p>STEAM课程</p></div>
@@ -375,22 +356,53 @@
 </div>
 <input type="hidden" id="indexItemActiveIndicator" value="index" style="display: none !important">
 
+<!--[if !IE]> -->
 <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<!-- <![endif]-->
+
+
+<!--[if lte IE 8]>
+<script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/respond.js/1.2.0/respond.min.js"></script>
+<script src="https://cdn.bootcss.com/html5shiv/3.6.1/html5shiv.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery-placeholder/2.0.6/jquery.placeholder.min.js"></script>
+
+<![endif]-->
+
+<!--[if gt IE 8]>
+<script src="https://cdn.bootcss.com/jquery/2.0.2/jquery.min.js"></script>
+<![endif]-->
+
+<!--<script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>-->
 <!--<script src="js/wingokid.js"></script>-->
 <script type="text/javascript"
         src="http://webapi.amap.com/maps?v=1.4.3&key=5e4f598825ad7747432bd435c7474416"></script>
 <script src="js/wingokid.js"></script>
 
 <script>
+    $(window).scroll(function () {
+        s();
+    });
+
+    function setCurrentPage(e) {
+        $(".j-current-page").data("currentpage", e);
+    }
+
+    var clickSpan = $(".pagination span");
+    clickSpan.click(function () {
+        var o = $(this).hasClass("active");
+    });
+
     $(function () {
 
-        alert($(window).height());
-        alert($(".home-left-nav-bar").height());
-        // $(window).height() - $(".home-left-nav-bar").height()
+        c();
+        // alert($(window).height());
+        // alert($(".home-left-nav-bar").height());
+        // // $(window).height() - $(".home-left-nav-bar").height()
 
-        $(window).scroll(function () {
-            s();
-        });
+        // $(window).scroll(function () {
+        //     s();
+        // });
 
         $("#js-banner").height($(window).height() < 600 ? 600 : $(window).height());
 
@@ -426,13 +438,16 @@
                 // alert($target);
                 $(this).find('img:first').attr('src', $target);
 
+
                 $(this).find('div:last').css('display', 'block');
+                $(this).find('div:last').css('visibility', 'visible');
             },
             function () {
                 var $src = $(this).find('img:first')[0].src;
                 var $target = $src.replace("-hovered.png", ".png");
                 $(this).find('img:first').attr('src', $target);
                 $(this).find('div:last').css('display', 'none');
+                $(this).find('div:last').css('visibility', 'hidden');
                 // alert($(this).find('img:last')[0].src);
             });
 
