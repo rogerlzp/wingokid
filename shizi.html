@@ -37,8 +37,8 @@
 <body>
 
 <div class="home-left-nav-wrapper">
-    <div data-scroll="scrollup" class="home-left-nav-bar font-color-orange">
-        <a href="./homepage3.html">莎翁首页</a>
+    <div data-scroll="scrollup" class="home-left-nav-bar black-color-orange">
+        <a href="./homepage4.html">莎翁首页</a>
         <a href="./teach_mode.html">教学模式</a>
         <a href="./kechengtixi.html">课程体系</a>
         <a href="./shizi.html" class="active">专业师资</a>
@@ -47,13 +47,6 @@
 
 </div>
 
-<input type="hidden" id="j-pageType" value="courseintroduction" style="display: none">
-<div class="index-page-tool-wrapper">
-    <div class="side-bar-tool"></div>
-    <div data-scroll="switchBackTop" class="back-top-tool">
-        <div class="js-back-top back-top"><i></i></div>
-    </div>
-</div>
 
 <div class="banner-wrapper">
     <div class="subpage-part-container banner1">
@@ -67,7 +60,6 @@
 
 <div class="subpage-main-wrapper">
     <div class="shizi-main-wrapper">
-
         <div class="shizi-title">
             <div class="yellow-title-shizi">
                 <div class="right-strip14"></div>
@@ -327,30 +319,11 @@
         }, function () {
             $(this).children('img:first-child').attr('src', 'img/footprint1.png');
 
-            // $("#hover1").attr('src', 'img/footprint1.png');
         });
 
-        // $(".start-slide").click(function () {
-        //     $("#myCarousel").carousel('cycle');
-        // });
 
         $(".play_item").addClass("active");
 
-        // $(".video_play").children().css('background-color', 'red');
-
-
-        var myVideo = document.getElementsByName("myvideo")[0];
-        $(".play_item.active").on("click", function () {
-            $(".video_play").hide();
-            $("#play-video").show();
-            myVideo.play();
-
-        });
-
-        myVideo.onended = function () {
-            $("#play-video").hide();
-            $(".video_play").show();
-        }
     });
 </script>
 </body>
