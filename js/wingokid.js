@@ -106,14 +106,14 @@ function s() {
     var itemHeight = $(".home-left-nav-bar a:first-child").height();
     if ($(window).scrollTop() > $(window).height() - $(".home-left-nav-bar").height()) {
 
-        for (var t1 = 0; t1 < ($(window).scrollTop() - $(window).height() + $(".home-left-nav-bar").height() + 120) / itemHeight; t1++) {
+        for (var t1 = 0; t1 < ($(window).scrollTop() - $(window).height() + $(".home-left-nav-bar").height() ) / itemHeight; t1++) {
             // var  = 5 - i;
             $(".home-left-nav-bar a:nth-last-child(2)").removeClass("font-color-orange");
         }
     }
 
     /**/
-    $(window).scrollTop() > $(window).height() - $(".home-left-nav-bar").height() + 120 ? i() : a()
+    $(window).scrollTop() > $(window).height() - $(".home-left-nav-bar").height()  ? i() : a()
 }
 
 function setValue() {
